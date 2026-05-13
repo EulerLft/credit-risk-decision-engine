@@ -46,7 +46,9 @@ The model successfully identifies 82% of all actual "High Risk" cases, providing
 ### Feature Importance
 The analysis reveals that Checking Account Status and Credit Duration are the most significant predictors of risk.
 
-![Feature Importance](assets/logistic_regression_feature_importance.png)
+<p align="center">
+  <img src="assets/logistic_regression_feature_importance.png" alt="Feature Importance" width="500">
+</p>
 
 ### Performance Metrics 
 | Model Version  | Strategy/Change | Accuracy | Recall | F1 | 
@@ -61,19 +63,37 @@ The first three versions focused on finding the right level of regularization. W
 <summary>Click to view early iteration proofs</summary>
 
 Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults. \
-![v1.0](assets/v1.0_manual_baseline.jpg) \
-![v3.0](assets/v3.0_manual_baseline.jpg)
+<p align="center">
+  <img src="assets/v1.0_manual_baseline.jpg" alt="v1.0" width="500">
+</p>
+<p align="center">
+  <img src="assets/v3.0_manual_baseline.jpg" alt="v3.0" width="500">
+</p>
 </details>
 
 ### Phase 2: Prioritizing Risk Detection (v4.0)
 By implementing `class_weight='balanced'`, we successfully shifted the model's focus to catching defaults, raising recall to 0.75. \
-![v4.0 Balanced Weights](assets/v4.0_manual_baseline.jpg)
+<details>
+<summary>Click to view v4.0 iteration proofs</summary>
+Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults. \
+<p align="center">
+  <img src="assets/v4.0_manual_baseline.jpg" alt="v4.0" width="500">
+</p>
+</details>
 
 
 ### Phase 3: Final Optimization (v5.0)
 Using `GridSearchCV`, we mathematically identified the optimal C-value (0.1) and L1 penalty. This is our production engine. \
-![v5.0 Grid Search](assets/v5.0_grid_search_optimized.JPG) \
-![v5.0 Final Validation](assets/v5.0_manual_result.JPG)
+
+<p align="center">
+  <img src="assets/v5.0_grid_search_optimized.JPG" alt="v5.0 Grid Search" width="500">
+</p>
+
+
+<p align="center">
+  <img src="assets/v5.0_manual_result.JPG" alt="v5.0 Final Validation" width="500">
+</p>
+
 
 ## Optimization & Methodology
 The final model was selected using `GridSearchCV` to explore the hyperparameter space across multiple folds.
