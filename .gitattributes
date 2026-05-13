@@ -3,3 +3,7 @@
 
 # Ensure the SQL folder is explicitly counted as code
 sql/*.sql linguist-detectable=true
+
+# Example: Ignore data or assets to balance the language bar
+data/* linguist-vendored
+assets/* linguist-vendored
