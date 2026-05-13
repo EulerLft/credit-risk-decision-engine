@@ -1,0 +1,1001 @@
+customer_id,age,sex,marital_status,job,employment_duration,housing,guarantors,num_dependants,checking_status,savings_status,amount,duration,purpose,credit_history,installment_rate,risk_label,predicted_risk_label,risk_probability
+1,67,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,unknown/no savings,1169,6,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.15539657277394467
+2,22,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,5951,48,radio/television,existing credits paid back duly,2.0,1,1,0.8129851926765941
+3,49,male,single,unskilled employee,4 - 7 years,own,none,2,no account,< 100 DM,2096,12,education,critical account/other credits existing (outside this bank),2.0,0,0,0.20361689552742393
+4,45,male,single,skilled employee,4 - 7 years,for free,gurantor,2,< 0 DM,< 100 DM,7882,42,furniture/equipment,existing credits paid back duly,2.0,0,1,0.7009605099892311
+5,53,male,single,skilled employee,1 - 4 years,for free,none,2,< 0 DM,< 100 DM,4870,24,car (new),delay paying off in the past,3.0,1,1,0.8145617880135371
+6,35,male,single,unskilled employee,1 - 4 years,for free,none,2,no account,unknown/no savings,9055,36,education,existing credits paid back duly,2.0,0,1,0.6060058743487102
+7,53,male,single,skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",2835,24,furniture/equipment,existing credits paid back duly,3.0,0,0,0.22333084049074692
+8,35,male,single,highly skilled employee,1 - 4 years,rent,none,1,0 - 200 DM,< 100 DM,6948,36,car (used),existing credits paid back duly,2.0,0,1,0.6207707230813309
+9,61,male,divorved/separated,unskilled employee,4 - 7 years,own,none,1,no account,"> 1,000 DM",3059,12,radio/television,existing credits paid back duly,2.0,0,0,0.06275398387307202
+10,28,male,married/widowed,highly skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,5234,30,car (new),critical account/other credits existing (outside this bank),4.0,1,1,0.739823737257346
+11,25,female,non-single/single,skilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,1295,12,car (new),existing credits paid back duly,3.0,1,1,0.8024176427835137
+12,24,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,4308,48,business,existing credits paid back duly,3.0,1,1,0.9436639032966773
+13,22,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1567,12,radio/television,existing credits paid back duly,1.0,0,0,0.464655604653302
+14,60,male,single,unskilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,1199,24,car (new),critical account/other credits existing (outside this bank),4.0,1,1,0.6097337852036188
+15,28,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,1403,15,car (new),existing credits paid back duly,2.0,0,1,0.8143038728903585
+16,32,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,100 - 500 DM,1282,24,radio/television,existing credits paid back duly,4.0,1,1,0.6149860299603941
+17,53,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,2424,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.0775458831841527
+18,25,male,single,skilled employee,< 1 year,own,none,1,< 0 DM,unknown/no savings,8072,30,business,no credits/paid back duly,2.0,0,1,0.8205510174554169
+19,44,female,non-single/single,highly skilled employee,> 7 years,for free,none,1,0 - 200 DM,< 100 DM,12579,24,car (used),existing credits paid back duly,4.0,1,1,0.6679050858214508
+20,31,male,single,skilled employee,> 7 years,own,none,2,no account,"500 - 1,000 DM",3430,24,radio/television,existing credits paid back duly,3.0,0,0,0.19347225791494535
+21,48,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2134,9,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.15017777785209355
+22,44,male,single,skilled employee,1 - 4 years,rent,none,2,< 0 DM,"500 - 1,000 DM",2647,6,radio/television,existing credits paid back duly,2.0,0,0,0.42744708537352866
+23,48,male,single,unskilled employee,< 1 year,rent,none,2,< 0 DM,< 100 DM,2241,10,car (new),critical account/other credits existing (outside this bank),1.0,0,1,0.6787772394600469
+24,44,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,1804,12,car (used),critical account/other credits existing (outside this bank),3.0,0,0,0.17033460700594888
+25,26,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,2069,10,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.06682624426210156
+26,36,male,single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1374,6,furniture/equipment,existing credits paid back duly,1.0,0,0,0.45841381254724545
+27,39,male,married/widowed,unskilled employee,> 7 years,own,none,1,no account,< 100 DM,426,6,radio/television,no credits/paid back duly,4.0,0,0,0.33151506774044054
+28,42,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,>= 200 DM,"> 1,000 DM",409,12,radio/television,all credits at this bank paid back duly,3.0,0,0,0.31425123279428624
+29,34,male,single,skilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,< 100 DM,2415,7,radio/television,existing credits paid back duly,3.0,0,0,0.2249619869166874
+30,63,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,6836,60,business,delay paying off in the past,3.0,1,1,0.9107980825720889
+31,36,male,married/widowed,skilled employee,< 1 year,own,none,1,0 - 200 DM,"> 1,000 DM",1913,18,business,existing credits paid back duly,3.0,0,0,0.37198154538825035
+32,27,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,4020,24,furniture/equipment,existing credits paid back duly,2.0,0,1,0.6604769983392338
+33,30,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,100 - 500 DM,5866,18,car (new),existing credits paid back duly,2.0,0,1,0.5892032682835728
+34,57,male,single,unskilled employee,> 7 years,rent,none,1,no account,unknown/no savings,1264,12,business,critical account/other credits existing (outside this bank),4.0,0,0,0.08358715657863784
+35,33,female,non-single/single,highly skilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,1474,12,furniture/equipment,existing credits paid back duly,4.0,0,1,0.5501605454673661
+36,25,male,single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,4746,45,radio/television,critical account/other credits existing (outside this bank),4.0,1,1,0.6670992064209426
+37,31,male,single,skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,6110,48,education,critical account/other credits existing (outside this bank),1.0,0,1,0.7078324883693391
+38,37,male,single,skilled employee,1 - 4 years,own,co-applicant,1,>= 200 DM,< 100 DM,2100,18,radio/television,existing credits paid back duly,4.0,1,0,0.4413386385299853
+39,37,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,1225,10,domestic appliance,existing credits paid back duly,2.0,0,0,0.292944943955224
+40,24,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,458,9,radio/television,existing credits paid back duly,4.0,0,0,0.32642459709217225
+41,30,male,single,highly skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",2333,30,radio/television,existing credits paid back duly,4.0,0,0,0.21992758289227685
+42,26,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,"500 - 1,000 DM",1158,12,radio/television,existing credits paid back duly,3.0,0,0,0.35437572585389504
+43,44,male,single,unskilled employee,1 - 4 years,own,none,2,0 - 200 DM,< 100 DM,6204,18,repairs,delay paying off in the past,2.0,0,1,0.7265182224531576
+44,24,male,married/widowed,skilled employee,4 - 7 years,rent,none,1,< 0 DM,100 - 500 DM,6187,30,car (used),critical account/other credits existing (outside this bank),1.0,0,0,0.41657421922075305
+45,58,female,non-single/single,unskilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,6143,48,car (used),critical account/other credits existing (outside this bank),4.0,1,1,0.7303523058855074
+46,35,female,non-single/single,highly skilled employee,< 1 year,own,none,1,no account,< 100 DM,1393,11,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.29878705714880127
+47,39,male,single,skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",2299,36,radio/television,existing credits paid back duly,4.0,0,0,0.2606996109214892
+48,23,female,non-single/single,unemployed,unemployed,rent,none,1,< 0 DM,"500 - 1,000 DM",1352,6,car (used),existing credits paid back duly,1.0,0,0,0.4414372232329991
+49,39,male,single,unskilled employee,1 - 4 years,own,none,1,no account,< 100 DM,7228,11,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.2042869987904208
+50,28,female,non-single/single,skilled employee,1 - 4 years,own,co-applicant,1,no account,100 - 500 DM,2073,12,radio/television,existing credits paid back duly,4.0,0,0,0.24862724568704245
+51,29,male,single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,unknown/no savings,2333,24,furniture/equipment,delay paying off in the past,4.0,0,0,0.4707066236817647
+52,30,male,single,highly skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,5965,27,car (used),delay paying off in the past,1.0,0,0,0.4626700037411037
+53,25,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1262,12,radio/television,existing credits paid back duly,3.0,0,0,0.15477707619192105
+54,31,male,single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,3378,18,car (used),existing credits paid back duly,2.0,0,0,0.05779276012639371
+55,57,male,single,skilled employee,> 7 years,for free,none,1,0 - 200 DM,< 100 DM,2225,36,car (new),delay paying off in the past,4.0,1,1,0.8192859240896612
+56,26,male,single,unskilled employee,1 - 4 years,own,gurantor,2,no account,unknown/no savings,783,6,car (new),all credits at this bank paid back duly,1.0,0,0,0.09462836995642056
+57,52,male,single,highly skilled employee,unemployed,own,none,1,0 - 200 DM,unknown/no savings,6468,12,radio/television,existing credits paid back duly,2.0,1,0,0.33233868276705864
+58,31,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,9566,36,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.3698713234994529
+59,23,female,non-single/single,highly skilled employee,> 7 years,own,none,1,>= 200 DM,< 100 DM,1961,18,car (new),existing credits paid back duly,3.0,0,1,0.6427999679279793
+60,23,female,non-single/single,unskilled employee,< 1 year,rent,co-applicant,1,< 0 DM,< 100 DM,6229,36,furniture/equipment,critical account/other credits existing (outside this bank),4.0,1,1,0.9080713439764918
+61,27,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1391,9,business,existing credits paid back duly,2.0,0,0,0.44470644858470015
+62,50,male,single,skilled employee,> 7 years,own,gurantor,1,0 - 200 DM,unknown/no savings,1537,15,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.09233359151576795
+63,61,male,single,highly skilled employee,> 7 years,for free,none,1,0 - 200 DM,< 100 DM,1953,36,business,no credits/paid back duly,4.0,1,1,0.8495342582635594
+64,25,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,14421,48,business,no credits/paid back duly,2.0,1,1,0.9261840055421333
+65,26,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,3181,24,radio/television,existing credits paid back duly,4.0,0,0,0.42910372155396626
+66,48,male,single,skilled employee,> 7 years,own,none,2,no account,unknown/no savings,5190,27,repairs,existing credits paid back duly,4.0,0,0,0.34891354494995513
+67,29,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,2171,12,radio/television,existing credits paid back duly,2.0,0,0,0.3108539119111256
+68,22,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,"> 1,000 DM",1007,12,car (new),existing credits paid back duly,4.0,0,0,0.3249637047364654
+69,37,male,single,skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,1819,36,education,existing credits paid back duly,4.0,1,1,0.6924210375727622
+70,25,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,2394,36,radio/television,existing credits paid back duly,4.0,0,0,0.24454056975876265
+71,30,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,8133,36,car (used),existing credits paid back duly,1.0,0,0,0.34837711234426605
+72,46,male,single,unskilled employee,> 7 years,rent,none,1,no account,unknown/no savings,730,7,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.05981904786491813
+73,51,male,single,highly skilled employee,> 7 years,for free,none,2,< 0 DM,< 100 DM,1164,8,other,critical account/other credits existing (outside this bank),3.0,0,0,0.21469532956053577
+74,41,female,non-single/single,unskilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,5954,42,business,critical account/other credits existing (outside this bank),2.0,0,1,0.5849992794242842
+75,40,male,single,highly skilled employee,> 7 years,own,none,1,< 0 DM,unknown/no savings,1977,36,education,existing credits paid back duly,4.0,1,1,0.8082684923005601
+76,66,male,single,highly skilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,1526,12,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.2624342056824354
+77,34,male,single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,3965,42,radio/television,existing credits paid back duly,4.0,1,1,0.8273025835473473
+78,51,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,4771,11,radio/television,delay paying off in the past,2.0,0,0,0.32506717025520143
+79,39,male,single,unskilled employee,1 - 4 years,own,none,2,no account,unknown/no savings,9436,54,car (used),no credits/paid back duly,2.0,0,0,0.436851840336735
+80,22,male,married/widowed,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,3832,30,furniture/equipment,existing credits paid back duly,2.0,0,1,0.7737327893135888
+81,44,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,unknown/no savings,5943,24,radio/television,existing credits paid back duly,1.0,1,0,0.2832566955405465
+82,47,male,single,skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",1213,15,radio/television,existing credits paid back duly,4.0,0,0,0.1305593775928022
+83,24,female,non-single/single,unskilled employee,1 - 4 years,rent,none,1,no account,100 - 500 DM,1568,18,business,existing credits paid back duly,3.0,0,0,0.3376744937270546
+84,58,female,non-single/single,unskilled employee,> 7 years,own,gurantor,1,< 0 DM,< 100 DM,1755,24,other,existing credits paid back duly,4.0,0,0,0.39531510737662445
+85,52,male,single,unskilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,2315,10,radio/television,existing credits paid back duly,3.0,0,0,0.4896449925248585
+86,29,female,non-single/single,highly skilled employee,1 - 4 years,own,gurantor,1,no account,< 100 DM,1412,12,business,critical account/other credits existing (outside this bank),4.0,0,0,0.08913245375641592
+87,27,female,non-single/single,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,1295,18,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,1,0.5245457539700835
+88,47,male,single,skilled employee,1 - 4 years,for free,none,2,0 - 200 DM,100 - 500 DM,12612,36,education,existing credits paid back duly,1.0,1,1,0.9130007684731728
+89,30,male,single,highly skilled employee,4 - 7 years,own,none,2,< 0 DM,100 - 500 DM,2249,18,car (new),existing credits paid back duly,4.0,0,1,0.534351423867275
+90,28,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,1108,12,repairs,no credits/paid back duly,4.0,1,1,0.7670524792203912
+91,56,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,618,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.09719150228611338
+92,54,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,1409,12,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.21630374927001883
+93,33,female,non-single/single,unskilled employee,> 7 years,own,none,2,no account,unknown/no savings,797,12,radio/television,critical account/other credits existing (outside this bank),4.0,1,0,0.06799343238631313
+94,20,male,single,skilled employee,> 7 years,rent,co-applicant,1,>= 200 DM,unknown/no savings,3617,24,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.3675004760352385
+95,54,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,"> 1,000 DM",1318,12,car (new),existing credits paid back duly,4.0,0,0,0.2923586573715438
+96,58,male,single,skilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,15945,54,business,no credits/paid back duly,3.0,1,1,0.9769766938940126
+97,61,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,2012,12,education,critical account/other credits existing (outside this bank),4.0,0,0,0.1457488931587048
+98,34,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,100 - 500 DM,2622,18,business,existing credits paid back duly,4.0,0,0,0.4148384485491414
+99,36,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,2337,36,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.47700394454311007
+100,36,male,single,highly skilled employee,4 - 7 years,rent,none,2,0 - 200 DM,unknown/no savings,7057,20,car (used),delay paying off in the past,3.0,0,0,0.22421055274014365
+101,41,male,married/widowed,unskilled employee,> 7 years,rent,none,1,no account,100 - 500 DM,1469,24,car (new),existing credits paid back duly,4.0,0,1,0.5246619051511278
+102,24,male,single,skilled employee,4 - 7 years,rent,none,1,0 - 200 DM,< 100 DM,2323,36,radio/television,existing credits paid back duly,4.0,0,1,0.6103383613044598
+103,24,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,932,6,radio/television,delay paying off in the past,3.0,0,0,0.18853903750557519
+104,35,male,single,skilled employee,4 - 7 years,rent,none,1,0 - 200 DM,< 100 DM,1919,9,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.2681583743342241
+105,26,male,married/widowed,skilled employee,< 1 year,rent,none,1,no account,unknown/no savings,2445,12,car (used),existing credits paid back duly,2.0,0,0,0.13454710504889927
+106,39,male,single,highly skilled employee,1 - 4 years,own,co-applicant,2,0 - 200 DM,< 100 DM,11938,24,other,critical account/other credits existing (outside this bank),2.0,1,0,0.3815613915603226
+107,39,male,single,highly skilled employee,> 7 years,own,none,2,no account,< 100 DM,6458,18,car (new),all credits at this bank paid back duly,2.0,1,1,0.504408686365277
+108,32,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,6078,12,car (new),existing credits paid back duly,2.0,0,0,0.49023344437973637
+109,30,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,unknown/no savings,7721,24,furniture/equipment,existing credits paid back duly,1.0,0,1,0.7162236493981078
+110,35,male,married/widowed,skilled employee,> 7 years,own,none,1,0 - 200 DM,"500 - 1,000 DM",1410,14,business,existing credits paid back duly,1.0,0,0,0.41550327130437054
+111,31,male,divorved/separated,skilled employee,> 7 years,own,none,2,0 - 200 DM,100 - 500 DM,1449,6,business,delay paying off in the past,1.0,0,0,0.4414408759653333
+112,23,female,non-single/single,skilled employee,< 1 year,rent,none,1,>= 200 DM,< 100 DM,392,15,education,existing credits paid back duly,4.0,0,1,0.8607253024527621
+113,28,male,single,unskilled employee,4 - 7 years,rent,none,1,0 - 200 DM,< 100 DM,6260,18,car (new),existing credits paid back duly,3.0,0,1,0.6587067011903194
+114,25,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,7855,36,car (new),critical account/other credits existing (outside this bank),4.0,1,1,0.5056449009579227
+115,35,male,married/widowed,skilled employee,> 7 years,own,none,1,< 0 DM,"500 - 1,000 DM",1680,12,radio/television,existing credits paid back duly,3.0,0,0,0.46489409814881044
+116,47,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,3578,48,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.18158758285705057
+117,30,female,non-single/single,highly skilled employee,4 - 7 years,own,none,1,< 0 DM,unknown/no savings,7174,42,radio/television,existing credits paid back duly,4.0,1,1,0.6223512327101526
+118,27,female,non-single/single,skilled employee,< 1 year,rent,co-applicant,1,< 0 DM,unknown/no savings,2132,10,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,1,0.5665152423753256
+119,23,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,"500 - 1,000 DM",4281,33,furniture/equipment,critical account/other credits existing (outside this bank),1.0,1,1,0.586810552452585
+120,36,male,divorved/separated,highly skilled employee,4 - 7 years,own,none,1,0 - 200 DM,"500 - 1,000 DM",2366,12,car (new),critical account/other credits existing (outside this bank),3.0,0,0,0.28597362358819967
+121,25,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1835,21,radio/television,existing credits paid back duly,3.0,1,1,0.6487443773968868
+122,41,female,non-single/single,highly skilled employee,> 7 years,rent,none,1,no account,< 100 DM,3868,24,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.20413028507169625
+123,24,male,single,unskilled employee,1 - 4 years,rent,none,1,no account,< 100 DM,1768,12,furniture/equipment,existing credits paid back duly,3.0,0,0,0.2705763011252715
+124,63,male,single,skilled employee,> 7 years,for free,none,1,>= 200 DM,< 100 DM,781,10,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.3613071894100784
+125,27,female,non-single/single,skilled employee,< 1 year,rent,none,1,0 - 200 DM,unknown/no savings,1924,18,furniture/equipment,existing credits paid back duly,4.0,1,1,0.6034908909509553
+126,30,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,2121,12,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.4782371676943938
+127,40,male,married/widowed,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,701,12,radio/television,existing credits paid back duly,4.0,0,1,0.5275810037311706
+128,30,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,639,12,repairs,existing credits paid back duly,4.0,1,1,0.5859623626006257
+129,34,male,single,highly skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,1860,12,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.192948121601046
+130,29,female,non-single/single,skilled employee,1 - 4 years,own,co-applicant,1,< 0 DM,< 100 DM,3499,12,car (new),critical account/other credits existing (outside this bank),3.0,1,1,0.6821038504954772
+131,24,female,non-single/single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,unknown/no savings,8487,48,car (new),existing credits paid back duly,1.0,0,1,0.7420885599112353
+132,29,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,6887,36,education,delay paying off in the past,4.0,1,1,0.9222420979658621
+133,27,male,single,unskilled employee,< 1 year,own,none,1,no account,< 100 DM,2708,15,furniture/equipment,existing credits paid back duly,2.0,0,0,0.301382675665039
+134,47,male,single,skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,1984,18,furniture/equipment,existing credits paid back duly,4.0,0,0,0.2756015034493842
+135,21,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,10144,60,radio/television,existing credits paid back duly,2.0,0,1,0.5976150676819011
+136,38,female,non-single/single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,1240,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.06965560322948364
+137,27,male,single,skilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",8613,27,car (used),delay paying off in the past,2.0,0,0,0.08489577378791935
+138,66,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,"500 - 1,000 DM",766,12,radio/television,existing credits paid back duly,4.0,1,0,0.2615938633308133
+139,35,male,single,skilled employee,4 - 7 years,own,gurantor,1,0 - 200 DM,unknown/no savings,2728,15,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.05932072866416703
+140,44,female,non-single/single,unskilled employee,1 - 4 years,rent,none,1,>= 200 DM,< 100 DM,1881,12,radio/television,existing credits paid back duly,2.0,0,1,0.5064990095098346
+141,27,male,married/widowed,unemployed,< 1 year,own,none,1,>= 200 DM,"> 1,000 DM",709,6,car (new),existing credits paid back duly,2.0,0,0,0.3011250335857653
+142,30,female,non-single/single,highly skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,4795,36,radio/television,existing credits paid back duly,4.0,0,1,0.8011718093746113
+143,27,male,single,highly skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,3416,27,radio/television,existing credits paid back duly,3.0,0,1,0.6287478014552896
+144,22,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,2462,18,furniture/equipment,existing credits paid back duly,2.0,1,1,0.5862436482457202
+145,23,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,2288,21,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.2965281140912255
+146,30,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,100 - 500 DM,3566,48,business,all credits at this bank paid back duly,4.0,0,1,0.6946276968644621
+147,39,female,non-single/single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,860,6,car (new),critical account/other credits existing (outside this bank),1.0,0,1,0.5384488168730605
+148,51,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,682,12,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.12584860756704558
+149,28,male,single,skilled employee,1 - 4 years,own,gurantor,1,< 0 DM,< 100 DM,5371,36,furniture/equipment,critical account/other credits existing (outside this bank),3.0,0,1,0.5036983960397023
+150,46,male,single,skilled employee,> 7 years,own,none,1,no account,"> 1,000 DM",1582,18,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.0447559718923582
+151,42,male,single,skilled employee,> 7 years,for free,none,2,no account,100 - 500 DM,1346,6,radio/television,existing credits paid back duly,2.0,0,0,0.14663861806629414
+152,38,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1924,10,radio/television,existing credits paid back duly,1.0,0,0,0.15006348716879786
+153,24,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,5848,36,radio/television,existing credits paid back duly,4.0,0,1,0.5734745598471634
+154,29,female,non-single/single,skilled employee,> 7 years,rent,none,1,0 - 200 DM,"> 1,000 DM",7758,24,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.24715129870403338
+155,36,male,single,highly skilled employee,4 - 7 years,rent,none,1,0 - 200 DM,100 - 500 DM,6967,24,business,delay paying off in the past,4.0,0,1,0.5652256831766524
+156,20,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,1282,12,furniture/equipment,existing credits paid back duly,2.0,1,1,0.7148016176801762
+157,48,male,single,skilled employee,> 7 years,own,gurantor,2,< 0 DM,100 - 500 DM,1288,9,repairs,critical account/other credits existing (outside this bank),3.0,0,0,0.3548332194943605
+158,45,male,married/widowed,unskilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,339,12,retraining,all credits at this bank paid back duly,4.0,0,1,0.5712315951941813
+159,38,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,100 - 500 DM,3512,24,car (new),existing credits paid back duly,2.0,0,1,0.5091192797742591
+160,34,male,single,unskilled employee,1 - 4 years,own,none,2,no account,unknown/no savings,1898,6,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.03489175946074052
+161,36,male,single,skilled employee,> 7 years,own,none,2,no account,100 - 500 DM,2872,24,radio/television,critical account/other credits existing (outside this bank),3.0,0,0,0.13341792581800024
+162,30,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,1055,18,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.3521727184019276
+163,36,male,single,skilled employee,4 - 7 years,own,none,1,no account,"500 - 1,000 DM",1262,15,domestic appliance,existing credits paid back duly,4.0,0,0,0.0855413977818051
+164,70,male,single,highly skilled employee,unemployed,for free,none,1,0 - 200 DM,< 100 DM,7308,10,car (new),existing credits paid back duly,2.0,0,1,0.727808519989538
+165,36,male,single,skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",909,36,car (new),existing credits paid back duly,4.0,0,0,0.3850442777192124
+166,32,male,single,skilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",2978,6,furniture/equipment,existing credits paid back duly,1.0,0,0,0.11395007308711806
+167,33,female,non-single/single,skilled employee,unemployed,own,none,1,< 0 DM,< 100 DM,1131,18,furniture/equipment,existing credits paid back duly,4.0,1,1,0.7392563360196166
+168,20,female,non-single/single,skilled employee,< 1 year,own,none,1,0 - 200 DM,"> 1,000 DM",1577,11,furniture/equipment,existing credits paid back duly,4.0,0,0,0.3467417153082166
+169,25,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,no account,< 100 DM,3972,24,furniture/equipment,existing credits paid back duly,2.0,0,0,0.3969238818700563
+170,31,male,divorved/separated,skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1935,24,business,critical account/other credits existing (outside this bank),4.0,1,0,0.4971508671313458
+171,33,male,single,skilled employee,> 7 years,rent,none,2,< 0 DM,< 100 DM,950,15,car (new),no credits/paid back duly,4.0,1,1,0.8819235046726277
+172,26,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,763,12,furniture/equipment,existing credits paid back duly,4.0,0,0,0.24866127087014173
+173,34,female,non-single/single,highly skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,2064,24,furniture/equipment,delay paying off in the past,3.0,1,1,0.7310207492974323
+174,33,male,single,skilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,< 100 DM,1414,8,radio/television,existing credits paid back duly,4.0,0,0,0.22132459418582215
+175,26,male,single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,3414,21,education,delay paying off in the past,2.0,1,1,0.8955554467387565
+176,53,female,non-single/single,highly skilled employee,unemployed,own,none,1,no account,unknown/no savings,7485,30,car (used),all credits at this bank paid back duly,4.0,1,0,0.28213994511682244
+177,42,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,2577,12,furniture/equipment,existing credits paid back duly,2.0,0,1,0.6328208462745072
+178,52,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,"500 - 1,000 DM",338,6,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.2008197659943638
+179,31,male,single,highly skilled employee,4 - 7 years,rent,none,2,no account,< 100 DM,1963,12,radio/television,existing credits paid back duly,4.0,0,0,0.16680035393336926
+180,65,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,571,21,car (new),critical account/other credits existing (outside this bank),4.0,0,1,0.5735996497390112
+181,28,male,divorved/separated,skilled employee,< 1 year,own,none,1,no account,< 100 DM,9572,36,business,delay paying off in the past,1.0,1,1,0.6833082380210249
+182,30,male,divorved/separated,highly skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,4455,36,business,delay paying off in the past,2.0,1,1,0.761206133455671
+183,40,male,single,unskilled employee,1 - 4 years,own,none,2,< 0 DM,unknown/no savings,1647,21,car (new),all credits at this bank paid back duly,4.0,1,1,0.6088447416832449
+184,50,male,single,skilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",3777,24,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.06747127406159967
+185,36,male,single,skilled employee,> 7 years,own,none,2,0 - 200 DM,< 100 DM,884,18,car (new),critical account/other credits existing (outside this bank),4.0,1,0,0.45045686040096344
+186,31,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1360,15,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.09900702647937355
+187,74,female,non-single/single,highly skilled employee,> 7 years,for free,none,2,0 - 200 DM,< 100 DM,5129,9,car (used),all credits at this bank paid back duly,2.0,1,1,0.5230201243782623
+188,68,male,single,unemployed,unemployed,for free,none,1,0 - 200 DM,< 100 DM,1175,16,car (new),critical account/other credits existing (outside this bank),2.0,0,1,0.5550003546437051
+189,20,male,married/widowed,skilled employee,4 - 7 years,own,none,1,< 0 DM,100 - 500 DM,674,12,radio/television,existing credits paid back duly,4.0,1,0,0.3707605768412237
+190,33,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,3244,18,furniture/equipment,no credits/paid back duly,1.0,0,1,0.7732334768393738
+191,54,male,single,highly skilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",4591,24,business,existing credits paid back duly,2.0,1,0,0.11665121895629262
+192,34,male,single,unskilled employee,4 - 7 years,for free,none,2,0 - 200 DM,100 - 500 DM,3844,48,business,no credits/paid back duly,4.0,1,1,0.8204722875007812
+193,36,male,single,skilled employee,1 - 4 years,own,none,2,0 - 200 DM,< 100 DM,3915,27,business,existing credits paid back duly,4.0,1,1,0.5734690418108772
+194,29,male,married/widowed,skilled employee,4 - 7 years,rent,none,1,no account,< 100 DM,2108,6,radio/television,existing credits paid back duly,2.0,0,0,0.17963481141397528
+195,21,male,single,skilled employee,1 - 4 years,rent,gurantor,1,0 - 200 DM,100 - 500 DM,3031,45,radio/television,existing credits paid back duly,4.0,1,1,0.6137976056698943
+196,34,female,non-single/single,highly skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1501,9,education,critical account/other credits existing (outside this bank),2.0,1,1,0.6398011243981134
+197,28,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1382,6,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.10520827524896181
+198,27,female,non-single/single,skilled employee,< 1 year,rent,none,1,0 - 200 DM,100 - 500 DM,951,12,furniture/equipment,existing credits paid back duly,4.0,1,1,0.6717670840667082
+199,36,male,single,skilled employee,> 7 years,for free,none,1,0 - 200 DM,unknown/no savings,2760,24,car (used),existing credits paid back duly,4.0,0,0,0.2524259176353638
+200,40,male,divorved/separated,highly skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,4297,18,furniture/equipment,delay paying off in the past,4.0,1,1,0.6646108735160609
+201,52,male,single,skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",936,9,education,critical account/other credits existing (outside this bank),4.0,0,0,0.19140183913266492
+202,27,male,married/widowed,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1168,12,car (new),existing credits paid back duly,4.0,0,1,0.6885404342101076
+203,26,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,5117,27,business,delay paying off in the past,3.0,0,0,0.2496064033577731
+204,21,male,married/widowed,skilled employee,4 - 7 years,rent,none,1,< 0 DM,< 100 DM,902,12,retraining,existing credits paid back duly,4.0,1,0,0.45963199898077195
+205,38,male,single,unskilled employee,> 7 years,own,none,2,no account,< 100 DM,1495,12,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.17917398845158553
+206,38,male,single,highly skilled employee,> 7 years,for free,none,2,< 0 DM,< 100 DM,10623,30,car (used),critical account/other credits existing (outside this bank),3.0,0,1,0.544009064020252
+207,43,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,1935,12,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.12612782908179518
+208,26,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,1424,12,domestic appliance,critical account/other credits existing (outside this bank),4.0,0,0,0.17877674756204626
+209,21,male,married/widowed,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,6568,24,business,existing credits paid back duly,2.0,0,1,0.740047363040207
+210,55,male,single,skilled employee,4 - 7 years,own,none,1,no account,"> 1,000 DM",1413,12,car (used),existing credits paid back duly,3.0,0,0,0.020759005814836827
+211,33,male,single,skilled employee,1 - 4 years,own,none,2,no account,unknown/no savings,3074,9,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.04155618537604564
+212,45,female,non-single/single,unskilled employee,> 7 years,own,none,1,no account,unknown/no savings,3835,36,radio/television,existing credits paid back duly,2.0,0,0,0.28745394523547896
+213,50,male,single,skilled employee,unemployed,own,none,1,< 0 DM,< 100 DM,5293,27,business,no credits/paid back duly,2.0,1,1,0.8778672408404825
+214,66,male,single,highly skilled employee,> 7 years,own,none,1,>= 200 DM,< 100 DM,1908,30,business,delay paying off in the past,4.0,1,1,0.5484376617058968
+215,51,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,3342,36,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.12228871118305286
+216,39,female,non-single/single,unskilled employee,4 - 7 years,own,none,1,0 - 200 DM,unknown/no savings,932,6,retraining,critical account/other credits existing (outside this bank),1.0,0,0,0.07026402917471174
+217,31,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,3104,18,business,no credits/paid back duly,3.0,0,1,0.6741256586557899
+218,23,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,3913,36,radio/television,existing credits paid back duly,2.0,0,1,0.5455607500392077
+219,24,male,divorved/separated,unskilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,3021,24,furniture/equipment,existing credits paid back duly,2.0,0,1,0.814878726374068
+220,64,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1364,10,car (new),existing credits paid back duly,2.0,0,0,0.3303993698327015
+221,26,male,married/widowed,unskilled employee,< 1 year,own,gurantor,1,0 - 200 DM,< 100 DM,625,12,radio/television,existing credits paid back duly,4.0,0,0,0.4004769283469339
+222,23,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,unknown/no savings,1200,12,education,existing credits paid back duly,4.0,0,1,0.7720160441594102
+223,30,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,707,12,radio/television,existing credits paid back duly,4.0,0,0,0.15057363220570297
+224,32,male,single,skilled employee,1 - 4 years,own,none,2,no account,unknown/no savings,2978,24,business,delay paying off in the past,4.0,0,0,0.1504245614403426
+225,30,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,4657,15,car (used),existing credits paid back duly,3.0,0,0,0.11662531356484375
+226,27,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2613,36,repairs,no credits/paid back duly,4.0,0,1,0.7428726967723084
+227,27,male,single,skilled employee,4 - 7 years,own,co-applicant,1,0 - 200 DM,"> 1,000 DM",10961,48,radio/television,existing credits paid back duly,1.0,1,1,0.548981541409958
+228,53,male,single,highly skilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,7865,12,furniture/equipment,existing credits paid back duly,4.0,1,1,0.6946564959228325
+229,22,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1478,9,radio/television,existing credits paid back duly,4.0,1,0,0.09886039787197214
+230,22,male,single,skilled employee,< 1 year,for free,none,1,< 0 DM,< 100 DM,3149,24,furniture/equipment,existing credits paid back duly,4.0,0,1,0.7866477748369103
+231,26,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,4210,36,radio/television,existing credits paid back duly,4.0,1,1,0.549868370400215
+232,51,male,single,unskilled employee,> 7 years,for free,none,1,no account,"500 - 1,000 DM",2507,9,car (new),existing credits paid back duly,2.0,0,0,0.2417068137169575
+233,35,male,single,skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,2141,12,radio/television,existing credits paid back duly,3.0,0,0,0.09246005212356988
+234,25,male,married/widowed,unskilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,< 100 DM,866,18,radio/television,existing credits paid back duly,4.0,0,0,0.35276595570748753
+235,42,male,single,unskilled employee,4 - 7 years,own,none,2,no account,< 100 DM,1544,4,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.046375062946225995
+236,30,male,single,highly skilled employee,unemployed,own,none,2,< 0 DM,< 100 DM,1823,24,radio/television,existing credits paid back duly,4.0,1,1,0.6653662195157056
+237,23,male,single,unemployed,unemployed,own,none,1,0 - 200 DM,unknown/no savings,14555,6,car (new),existing credits paid back duly,1.0,1,1,0.5512293626861807
+238,61,male,divorved/separated,unskilled employee,> 7 years,rent,none,1,0 - 200 DM,100 - 500 DM,2767,21,business,existing credits paid back duly,4.0,1,1,0.6874564295803888
+239,35,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1291,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.1278355468852756
+240,39,male,single,skilled employee,> 7 years,own,gurantor,2,< 0 DM,< 100 DM,2522,30,radio/television,existing credits paid back duly,1.0,0,1,0.5427108491380578
+241,29,female,non-single/single,skilled employee,> 7 years,own,none,1,< 0 DM,unknown/no savings,915,24,car (new),existing credits paid back duly,4.0,1,1,0.6590998455903775
+242,51,male,single,skilled employee,4 - 7 years,own,none,2,no account,< 100 DM,1595,6,radio/television,existing credits paid back duly,3.0,0,0,0.0898086904543929
+243,24,male,single,skilled employee,> 7 years,for free,none,2,< 0 DM,< 100 DM,4605,48,car (used),no credits/paid back duly,3.0,1,1,0.8764185610882267
+244,27,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1185,12,business,critical account/other credits existing (outside this bank),3.0,0,0,0.14360650366705544
+245,35,female,non-single/single,unskilled employee,1 - 4 years,own,none,2,no account,"500 - 1,000 DM",3447,12,retraining,all credits at this bank paid back duly,4.0,0,0,0.1755107920290896
+246,25,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1258,24,business,existing credits paid back duly,4.0,0,0,0.17980242151103437
+247,52,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,717,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.09770129071897786
+248,35,male,single,skilled employee,1 - 4 years,rent,none,1,no account,100 - 500 DM,1204,6,car (new),no credits/paid back duly,4.0,0,0,0.448074112397074
+249,26,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,1925,24,furniture/equipment,existing credits paid back duly,2.0,0,0,0.45783746738904113
+250,22,female,non-single/single,skilled employee,unemployed,rent,co-applicant,1,no account,< 100 DM,433,18,radio/television,existing credits paid back duly,3.0,1,1,0.5190596697664132
+251,39,female,non-single/single,unskilled employee,4 - 7 years,own,none,1,< 0 DM,"> 1,000 DM",666,6,car (new),critical account/other credits existing (outside this bank),3.0,0,0,0.17956989555794095
+252,46,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,2251,12,furniture/equipment,existing credits paid back duly,1.0,0,0,0.4510406367022605
+253,24,female,non-single/single,skilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,< 100 DM,2150,30,car (new),existing credits paid back duly,4.0,1,1,0.6622563526095302
+254,35,male,single,skilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,4151,24,furniture/equipment,delay paying off in the past,2.0,0,0,0.26728607108209007
+255,24,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,unknown/no savings,2030,9,furniture/equipment,existing credits paid back duly,2.0,0,0,0.16342521642354968
+256,27,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,7418,60,radio/television,delay paying off in the past,1.0,0,1,0.7058918664220666
+257,35,male,single,unskilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2684,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.14280653515252828
+258,29,male,divorved/separated,skilled employee,1 - 4 years,for free,none,1,< 0 DM,< 100 DM,2149,12,radio/television,all credits at this bank paid back duly,4.0,1,1,0.7199669803839811
+259,23,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,100 - 500 DM,3812,15,car (used),existing credits paid back duly,1.0,0,0,0.18974128678165364
+260,57,female,non-single/single,unskilled employee,unemployed,own,none,1,no account,100 - 500 DM,1154,11,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.13883673777815472
+261,27,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1657,12,furniture/equipment,existing credits paid back duly,2.0,0,1,0.5188867458274337
+262,55,female,non-single/single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,1603,24,radio/television,existing credits paid back duly,4.0,0,1,0.700274933687538
+263,36,male,single,highly skilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,5302,18,car (new),critical account/other credits existing (outside this bank),2.0,0,1,0.6699165411011175
+264,57,female,non-single/single,unskilled employee,> 7 years,for free,none,1,no account,< 100 DM,2748,12,education,critical account/other credits existing (outside this bank),2.0,0,0,0.4686305831751206
+265,32,male,single,unskilled employee,> 7 years,own,none,2,no account,< 100 DM,1231,10,car (new),critical account/other credits existing (outside this bank),3.0,0,0,0.16621983765245832
+266,37,male,single,skilled employee,> 7 years,own,none,2,0 - 200 DM,< 100 DM,802,15,radio/television,existing credits paid back duly,4.0,1,0,0.415148356128822
+267,36,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,6304,36,business,critical account/other credits existing (outside this bank),4.0,0,0,0.16020206521465535
+268,38,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,1533,24,radio/television,existing credits paid back duly,4.0,0,0,0.40564532205137394
+269,45,male,divorved/separated,highly skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,8978,14,car (new),existing credits paid back duly,1.0,1,1,0.8277259197391018
+270,25,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,999,24,radio/television,existing credits paid back duly,4.0,0,0,0.12671759948410355
+271,32,male,single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,2662,18,car (new),existing credits paid back duly,4.0,0,0,0.12443836745394032
+272,37,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,no account,"500 - 1,000 DM",1402,12,furniture/equipment,critical account/other credits existing (outside this bank),3.0,0,0,0.10970455999019689
+273,36,male,single,highly skilled employee,unemployed,for free,co-applicant,1,0 - 200 DM,unknown/no savings,12169,48,car (new),all credits at this bank paid back duly,4.0,0,1,0.9341430915881781
+274,28,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,3060,48,radio/television,existing credits paid back duly,4.0,1,1,0.6184948202274145
+275,34,male,divorved/separated,unskilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,11998,30,repairs,existing credits paid back duly,1.0,1,1,0.9501965172446535
+276,32,male,single,skilled employee,1 - 4 years,own,none,2,no account,< 100 DM,2697,9,radio/television,existing credits paid back duly,1.0,0,0,0.15103978698851728
+277,26,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2404,18,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.1639228360278566
+278,49,male,divorved/separated,unskilled employee,> 7 years,own,none,1,< 0 DM,unknown/no savings,1262,12,furniture/equipment,existing credits paid back duly,2.0,0,0,0.44981297967725387
+279,32,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,4611,6,furniture/equipment,existing credits paid back duly,1.0,1,0,0.3400806804762943
+280,29,male,single,highly skilled employee,1 - 4 years,rent,none,1,no account,100 - 500 DM,1901,24,radio/television,existing credits paid back duly,4.0,0,0,0.27404297621949325
+281,23,male,single,skilled employee,> 7 years,rent,none,1,no account,"> 1,000 DM",3368,15,car (used),critical account/other credits existing (outside this bank),3.0,0,0,0.03741138749251014
+282,50,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1574,12,furniture/equipment,existing credits paid back duly,4.0,0,0,0.18796816049432938
+283,49,male,single,unskilled employee,4 - 7 years,own,none,1,>= 200 DM,unknown/no savings,1445,18,radio/television,all credits at this bank paid back duly,4.0,0,0,0.18820891025713762
+284,63,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,1520,15,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.0658885666517449
+285,37,male,divorved/separated,skilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,3878,24,car (new),critical account/other credits existing (outside this bank),4.0,0,1,0.6679412626707204
+286,35,female,non-single/single,unskilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,10722,47,car (new),existing credits paid back duly,1.0,0,1,0.9612414221526361
+287,26,male,single,skilled employee,4 - 7 years,own,none,2,< 0 DM,< 100 DM,4788,48,car (used),existing credits paid back duly,4.0,0,1,0.58573347420971
+288,31,male,single,highly skilled employee,unemployed,for free,none,1,0 - 200 DM,100 - 500 DM,7582,48,other,delay paying off in the past,2.0,0,1,0.710044929894639
+289,49,female,non-single/single,skilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,< 100 DM,1092,12,radio/television,existing credits paid back duly,4.0,0,0,0.32709887775703667
+290,48,male,married/widowed,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,1024,24,radio/television,delay paying off in the past,4.0,1,1,0.7506863637131644
+291,26,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1076,12,business,existing credits paid back duly,2.0,0,0,0.22083414026727605
+292,28,male,married/widowed,highly skilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,9398,36,car (used),existing credits paid back duly,1.0,1,1,0.8000248661530429
+293,44,female,non-single/single,highly skilled employee,> 7 years,for free,none,2,< 0 DM,< 100 DM,6419,24,car (used),critical account/other credits existing (outside this bank),2.0,0,1,0.5273715566200635
+294,56,male,single,skilled employee,> 7 years,for free,none,1,>= 200 DM,< 100 DM,4796,42,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.3953219720641261
+295,46,male,divorved/separated,highly skilled employee,> 7 years,own,none,2,no account,unknown/no savings,7629,48,business,critical account/other credits existing (outside this bank),4.0,0,0,0.32898673919295207
+296,26,female,non-single/single,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,9960,48,furniture/equipment,existing credits paid back duly,1.0,1,1,0.9140096233364576
+297,20,female,non-single/single,skilled employee,< 1 year,rent,none,1,no account,unknown/no savings,4675,12,car (used),existing credits paid back duly,1.0,0,0,0.16346133771623902
+298,45,male,single,unskilled employee,> 7 years,own,co-applicant,1,no account,unknown/no savings,1287,10,car (new),existing credits paid back duly,4.0,0,0,0.19470135473807
+299,43,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2515,18,furniture/equipment,existing credits paid back duly,3.0,0,0,0.23461572177104784
+300,32,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,"> 1,000 DM",2745,21,furniture/equipment,critical account/other credits existing (outside this bank),3.0,0,0,0.11120955792709608
+301,54,female,non-single/single,unemployed,unemployed,own,none,1,no account,< 100 DM,672,6,car (new),existing credits paid back duly,1.0,0,0,0.37033062702817476
+302,42,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,3804,36,radio/television,no credits/paid back duly,4.0,1,1,0.8482058106393349
+303,37,male,single,unskilled employee,4 - 7 years,own,none,2,>= 200 DM,unknown/no savings,1344,24,car (new),critical account/other credits existing (outside this bank),4.0,1,0,0.16664379836690046
+304,49,male,single,skilled employee,4 - 7 years,own,co-applicant,1,< 0 DM,< 100 DM,1038,10,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.432176762410254
+305,44,male,single,skilled employee,1 - 4 years,for free,none,1,no account,"500 - 1,000 DM",10127,48,car (new),critical account/other credits existing (outside this bank),2.0,1,1,0.5012583631070211
+306,33,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",1543,6,furniture/equipment,existing credits paid back duly,4.0,0,0,0.08393573534907602
+307,24,female,non-single/single,unskilled employee,4 - 7 years,rent,none,1,no account,unknown/no savings,4811,30,car (used),existing credits paid back duly,2.0,0,0,0.14149925228464308
+308,33,male,married/widowed,unskilled employee,< 1 year,own,none,1,< 0 DM,100 - 500 DM,727,12,radio/television,existing credits paid back duly,4.0,1,1,0.5816469727140525
+309,24,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1237,8,furniture/equipment,existing credits paid back duly,3.0,1,0,0.4761805047874131
+310,22,male,married/widowed,unskilled employee,1 - 4 years,rent,none,1,0 - 200 DM,< 100 DM,276,9,car (new),existing credits paid back duly,4.0,0,1,0.6654291118613885
+311,40,male,single,unemployed,unemployed,for free,none,1,0 - 200 DM,unknown/no savings,5381,48,other,existing credits paid back duly,3.0,0,1,0.527399005088066
+312,25,male,single,skilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,5511,24,furniture/equipment,existing credits paid back duly,4.0,0,0,0.26757271003824123
+313,26,female,non-single/single,skilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,3749,24,furniture/equipment,existing credits paid back duly,2.0,0,1,0.6869728322211245
+314,25,male,married/widowed,unskilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,685,12,car (new),existing credits paid back duly,2.0,1,0,0.4880227976659994
+315,29,male,single,unskilled employee,< 1 year,own,none,2,>= 200 DM,unknown/no savings,1494,4,car (new),existing credits paid back duly,1.0,0,0,0.29554424107195254
+316,31,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,2746,36,furniture/equipment,all credits at this bank paid back duly,4.0,1,1,0.8280796416042607
+317,38,male,single,unskilled employee,1 - 4 years,own,gurantor,2,< 0 DM,< 100 DM,708,12,furniture/equipment,existing credits paid back duly,2.0,0,0,0.3700758953647456
+318,48,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,4351,24,furniture/equipment,existing credits paid back duly,1.0,0,0,0.4711287894731881
+319,32,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,701,12,education,critical account/other credits existing (outside this bank),4.0,0,0,0.2624247312347308
+320,27,female,non-single/single,unskilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,3643,15,furniture/equipment,delay paying off in the past,1.0,0,1,0.7157902634227512
+321,28,male,married/widowed,highly skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,4249,30,car (new),critical account/other credits existing (outside this bank),4.0,1,1,0.7285705496880337
+322,32,male,divorved/separated,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,1938,24,radio/television,existing credits paid back duly,4.0,1,1,0.765955058655093
+323,34,male,single,highly skilled employee,4 - 7 years,for free,none,1,< 0 DM,< 100 DM,2910,24,car (used),existing credits paid back duly,2.0,0,0,0.3966505975944472
+324,28,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,"> 1,000 DM",2659,18,furniture/equipment,existing credits paid back duly,4.0,0,0,0.3199270697663363
+325,36,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1028,18,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.258388382530458
+326,39,male,single,unskilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,3398,8,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.3600960951988479
+327,49,male,single,skilled employee,> 7 years,rent,none,1,no account,unknown/no savings,5801,12,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.11368429518353515
+328,34,female,non-single/single,skilled employee,4 - 7 years,own,none,2,no account,"> 1,000 DM",1525,24,car (new),existing credits paid back duly,4.0,0,0,0.15493225724945692
+329,31,male,single,skilled employee,> 7 years,own,none,1,>= 200 DM,< 100 DM,4473,36,radio/television,existing credits paid back duly,4.0,0,1,0.5869404336032964
+330,28,male,single,skilled employee,> 7 years,own,none,2,0 - 200 DM,< 100 DM,1068,6,radio/television,existing credits paid back duly,4.0,0,0,0.3394460605349806
+331,75,male,single,highly skilled employee,unemployed,for free,none,1,< 0 DM,< 100 DM,6615,24,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.4867241381296327
+332,30,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,1864,18,education,critical account/other credits existing (outside this bank),4.0,1,0,0.3634821615483858
+333,24,female,non-single/single,highly skilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,7408,60,car (new),existing credits paid back duly,4.0,1,1,0.9468198443198161
+334,24,female,non-single/single,unskilled employee,1 - 4 years,rent,none,1,no account,100 - 500 DM,11590,48,car (used),critical account/other credits existing (outside this bank),2.0,1,0,0.40924597551781416
+335,23,male,single,skilled employee,> 7 years,rent,none,2,< 0 DM,< 100 DM,4110,24,furniture/equipment,no credits/paid back duly,3.0,1,1,0.8904119611431521
+336,44,male,divorved/separated,highly skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,3384,6,furniture/equipment,critical account/other credits existing (outside this bank),1.0,1,1,0.5490291573436997
+337,23,female,non-single/single,unskilled employee,< 1 year,own,gurantor,1,0 - 200 DM,< 100 DM,2101,13,radio/television,existing credits paid back duly,2.0,0,0,0.45478443622359666
+338,24,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,unknown/no savings,1275,15,domestic appliance,existing credits paid back duly,4.0,1,1,0.5205788992752357
+339,28,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,4169,24,furniture/equipment,existing credits paid back duly,4.0,0,1,0.6624305267709781
+340,31,male,divorved/separated,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1521,10,furniture/equipment,existing credits paid back duly,4.0,0,1,0.501607582975294
+341,24,female,non-single/single,skilled employee,< 1 year,for free,none,1,0 - 200 DM,< 100 DM,5743,24,education,critical account/other credits existing (outside this bank),2.0,0,1,0.8745542036846339
+342,26,female,non-single/single,unskilled employee,4 - 7 years,rent,none,1,< 0 DM,< 100 DM,3599,21,furniture/equipment,existing credits paid back duly,1.0,0,1,0.7273028308648914
+343,25,male,married/widowed,skilled employee,< 1 year,rent,none,1,0 - 200 DM,"500 - 1,000 DM",3213,18,radio/television,existing credits paid back duly,1.0,0,1,0.632208711989092
+344,33,male,single,highly skilled employee,> 7 years,own,co-applicant,1,0 - 200 DM,< 100 DM,4439,18,business,existing credits paid back duly,1.0,0,1,0.6198180480095119
+345,37,male,single,unskilled employee,< 1 year,own,gurantor,2,>= 200 DM,< 100 DM,3949,10,car (new),existing credits paid back duly,1.0,0,0,0.43869223489675824
+346,43,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1459,15,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.14215256595493536
+347,23,male,single,skilled employee,< 1 year,own,gurantor,1,0 - 200 DM,< 100 DM,882,13,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.21635846253606122
+348,23,female,non-single/single,unemployed,unemployed,rent,none,1,0 - 200 DM,"500 - 1,000 DM",3758,24,radio/television,existing credits paid back duly,1.0,0,1,0.6943952653459375
+349,34,male,single,unskilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,1743,6,business,delay paying off in the past,1.0,0,0,0.12988841837223394
+350,32,male,single,skilled employee,> 7 years,for free,none,2,0 - 200 DM,"> 1,000 DM",1136,9,education,critical account/other credits existing (outside this bank),4.0,1,0,0.32765273976154663
+351,23,female,non-single/single,skilled employee,< 1 year,rent,none,1,no account,< 100 DM,1236,9,domestic appliance,existing credits paid back duly,1.0,0,0,0.393694238019716
+352,29,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,959,9,furniture/equipment,existing credits paid back duly,1.0,1,0,0.4815077515059285
+353,38,male,single,highly skilled employee,unemployed,own,none,1,no account,unknown/no savings,3229,18,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.04466827544307004
+354,28,male,single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,6199,12,radio/television,no credits/paid back duly,4.0,1,1,0.8043806888532524
+355,46,male,single,skilled employee,> 7 years,for free,none,1,no account,"500 - 1,000 DM",727,10,education,existing credits paid back duly,4.0,0,0,0.3683957344529399
+356,23,male,single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,1246,24,car (new),existing credits paid back duly,4.0,1,1,0.7280792446389404
+357,49,male,single,skilled employee,> 7 years,own,co-applicant,1,no account,unknown/no savings,2331,12,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.0712131679269328
+358,26,male,single,highly skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,4463,36,radio/television,delay paying off in the past,4.0,1,0,0.370735486239532
+359,28,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,776,12,radio/television,existing credits paid back duly,4.0,0,0,0.194792816601508
+360,23,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,< 0 DM,< 100 DM,2406,30,furniture/equipment,existing credits paid back duly,4.0,1,1,0.7772562162698595
+361,61,male,single,skilled employee,1 - 4 years,for free,none,1,0 - 200 DM,unknown/no savings,1239,18,education,existing credits paid back duly,4.0,0,1,0.6056026380646279
+362,37,male,single,highly skilled employee,> 7 years,own,none,1,>= 200 DM,unknown/no savings,3399,12,radio/television,existing credits paid back duly,2.0,0,0,0.1948041516983978
+363,36,female,non-single/single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,2247,12,car (new),delay paying off in the past,2.0,0,1,0.5795454392465467
+364,21,male,married/widowed,skilled employee,1 - 4 years,rent,none,1,no account,< 100 DM,1766,6,furniture/equipment,existing credits paid back duly,1.0,0,0,0.28686577293888993
+365,25,male,single,unemployed,unemployed,own,none,1,< 0 DM,< 100 DM,2473,18,furniture/equipment,existing credits paid back duly,4.0,1,1,0.6716581650138046
+366,36,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1542,12,business,existing credits paid back duly,2.0,0,0,0.12427600259584239
+367,27,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,3850,18,car (used),critical account/other credits existing (outside this bank),3.0,0,0,0.047399978428300474
+368,22,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,3650,18,furniture/equipment,existing credits paid back duly,1.0,0,1,0.8489623248209492
+369,42,male,single,skilled employee,> 7 years,own,none,2,< 0 DM,< 100 DM,3446,36,furniture/equipment,existing credits paid back duly,4.0,1,1,0.7719042880421596
+370,40,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,0 - 200 DM,< 100 DM,3001,18,furniture/equipment,existing credits paid back duly,2.0,0,1,0.606414461887006
+371,36,male,single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,3079,36,car (new),existing credits paid back duly,4.0,0,0,0.30210420524371573
+372,33,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,6070,18,radio/television,critical account/other credits existing (outside this bank),3.0,0,0,0.1565828603265039
+373,23,female,non-single/single,skilled employee,< 1 year,rent,none,1,no account,< 100 DM,2146,10,furniture/equipment,critical account/other credits existing (outside this bank),1.0,0,0,0.3045221867201151
+374,63,male,single,highly skilled employee,> 7 years,for free,none,1,no account,unknown/no savings,13756,60,car (new),critical account/other credits existing (outside this bank),2.0,0,1,0.6093131515570015
+375,60,female,non-single/single,highly skilled employee,> 7 years,for free,none,1,0 - 200 DM,100 - 500 DM,14782,60,other,all credits at this bank paid back duly,3.0,1,1,0.9053924123935598
+376,37,female,non-single/single,skilled employee,4 - 7 years,rent,gurantor,1,< 0 DM,< 100 DM,7685,48,business,all credits at this bank paid back duly,2.0,1,1,0.8810926748741699
+377,34,male,married/widowed,skilled employee,unemployed,own,none,1,no account,< 100 DM,2320,18,radio/television,delay paying off in the past,2.0,0,0,0.3411293978054638
+378,36,male,single,skilled employee,> 7 years,for free,none,1,no account,unknown/no savings,846,7,radio/television,delay paying off in the past,3.0,0,0,0.09504222739635658
+379,57,male,single,highly skilled employee,> 7 years,for free,none,1,0 - 200 DM,< 100 DM,14318,36,car (new),existing credits paid back duly,4.0,1,1,0.8948607840852258
+380,52,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,362,6,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.1454750050615639
+381,39,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,unknown/no savings,2212,20,furniture/equipment,existing credits paid back duly,4.0,0,0,0.30840014590673515
+382,38,female,non-single/single,highly skilled employee,unemployed,for free,none,1,0 - 200 DM,< 100 DM,12976,18,car (used),existing credits paid back duly,3.0,1,1,0.6741516857284151
+383,25,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,no account,unknown/no savings,1283,22,car (new),existing credits paid back duly,4.0,0,0,0.26578678914591325
+384,26,male,single,skilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,1330,12,car (new),existing credits paid back duly,4.0,0,1,0.5565937467205656
+385,26,male,single,unskilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,4272,30,business,delay paying off in the past,2.0,0,0,0.29924372553246836
+386,25,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2238,18,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.1625951629759398
+387,21,female,non-single/single,skilled employee,< 1 year,rent,none,1,no account,unknown/no savings,1126,18,radio/television,existing credits paid back duly,4.0,0,0,0.2737003480710548
+388,40,male,single,highly skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,7374,18,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.49312735322941054
+389,27,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,"500 - 1,000 DM",2326,15,business,critical account/other credits existing (outside this bank),2.0,0,0,0.21048435755849368
+390,27,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1449,9,business,existing credits paid back duly,3.0,0,0,0.15897453158976063
+391,30,male,married/widowed,highly skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1820,18,car (new),existing credits paid back duly,2.0,0,0,0.3830154794412814
+392,19,female,non-single/single,unskilled employee,< 1 year,rent,none,1,0 - 200 DM,"> 1,000 DM",983,12,furniture/equipment,existing credits paid back duly,1.0,0,0,0.4575180443353927
+393,39,male,single,highly skilled employee,4 - 7 years,for free,none,2,< 0 DM,< 100 DM,3249,36,car (new),existing credits paid back duly,2.0,0,1,0.7935132030618219
+394,31,female,non-single/single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,1957,6,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.2718800549921626
+395,31,male,single,highly skilled employee,unemployed,own,none,1,no account,< 100 DM,2406,9,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.14305606229547096
+396,32,male,single,skilled employee,4 - 7 years,rent,none,1,0 - 200 DM,100 - 500 DM,11760,39,education,delay paying off in the past,2.0,0,1,0.9082916711661349
+397,55,female,non-single/single,highly skilled employee,unemployed,for free,none,1,< 0 DM,< 100 DM,2578,12,furniture/equipment,existing credits paid back duly,3.0,0,1,0.759184910210441
+398,46,male,married/widowed,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,2348,36,furniture/equipment,critical account/other credits existing (outside this bank),3.0,0,1,0.6674377093134128
+399,46,male,divorved/separated,skilled employee,> 7 years,rent,none,1,0 - 200 DM,< 100 DM,1223,12,car (new),existing credits paid back duly,1.0,1,1,0.7501999073189648
+400,43,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",1516,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.07111596956436594
+401,39,male,married/widowed,skilled employee,< 1 year,own,none,1,no account,< 100 DM,1473,18,radio/television,existing credits paid back duly,3.0,0,0,0.3297463664285357
+402,28,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,1887,18,business,critical account/other credits existing (outside this bank),4.0,0,0,0.2161414807229666
+403,27,male,single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,8648,24,business,delay paying off in the past,2.0,1,0,0.46220751793752207
+404,27,male,single,unskilled employee,1 - 4 years,own,none,1,no account,< 100 DM,802,14,car (new),delay paying off in the past,4.0,0,0,0.28585326735957334
+405,43,male,single,skilled employee,> 7 years,own,none,2,0 - 200 DM,unknown/no savings,2899,18,car (new),delay paying off in the past,4.0,0,0,0.4556291688250276
+406,22,male,married/widowed,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,2039,24,radio/television,existing credits paid back duly,1.0,1,1,0.6643428711021956
+407,43,male,single,skilled employee,4 - 7 years,own,none,2,no account,unknown/no savings,2197,24,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.024694327345310844
+408,27,male,married/widowed,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,1053,15,radio/television,existing credits paid back duly,4.0,0,1,0.6653428084477755
+409,26,male,divorved/separated,highly skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",3235,24,radio/television,existing credits paid back duly,3.0,0,0,0.2642234392499863
+410,28,male,married/widowed,skilled employee,4 - 7 years,own,none,1,>= 200 DM,"500 - 1,000 DM",939,12,car (new),critical account/other credits existing (outside this bank),4.0,1,0,0.19504849474515634
+411,20,female,non-single/single,skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1967,24,radio/television,existing credits paid back duly,4.0,0,1,0.6151676962372898
+412,35,male,single,highly skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,7253,33,car (used),critical account/other credits existing (outside this bank),3.0,0,0,0.09647906102369748
+413,42,male,single,highly skilled employee,unemployed,own,none,1,no account,< 100 DM,2292,12,business,critical account/other credits existing (outside this bank),4.0,1,0,0.1468864820767878
+414,40,male,single,unskilled employee,1 - 4 years,rent,none,2,no account,"500 - 1,000 DM",1597,10,car (new),existing credits paid back duly,3.0,0,0,0.2531808131210257
+415,35,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,unknown/no savings,1381,24,car (new),existing credits paid back duly,4.0,1,1,0.6343153116952087
+416,35,male,single,skilled employee,> 7 years,own,none,2,no account,< 100 DM,5842,36,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.15992212042722137
+417,33,male,single,unskilled employee,< 1 year,own,none,2,< 0 DM,< 100 DM,2579,12,car (new),existing credits paid back duly,4.0,1,1,0.7334679189237004
+418,23,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,unknown/no savings,8471,18,education,delay paying off in the past,1.0,0,1,0.8753750904322294
+419,31,female,non-single/single,highly skilled employee,4 - 7 years,own,none,1,no account,"500 - 1,000 DM",2782,21,car (new),existing credits paid back duly,1.0,0,0,0.25620065688188864
+420,33,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,1042,18,car (new),existing credits paid back duly,4.0,1,0,0.47610602499303073
+421,20,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,no account,"> 1,000 DM",3186,15,car (new),existing credits paid back duly,2.0,0,0,0.1857921618560944
+422,30,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,2028,12,car (used),existing credits paid back duly,4.0,0,0,0.12314409234994982
+423,47,male,single,unskilled employee,4 - 7 years,own,none,2,0 - 200 DM,< 100 DM,958,12,car (new),critical account/other credits existing (outside this bank),2.0,0,0,0.2752510074354922
+424,34,male,single,highly skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,1591,21,furniture/equipment,delay paying off in the past,4.0,0,0,0.15665848632194349
+425,25,female,non-single/single,skilled employee,> 7 years,own,none,1,0 - 200 DM,unknown/no savings,2762,12,furniture/equipment,existing credits paid back duly,1.0,1,0,0.37183793657382963
+426,21,male,married/widowed,skilled employee,1 - 4 years,rent,none,1,0 - 200 DM,< 100 DM,2779,18,car (used),existing credits paid back duly,1.0,0,0,0.46963909851141417
+427,29,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,2743,28,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.18206362114752106
+428,46,male,single,skilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",1149,18,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.038350300833630106
+429,20,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,1313,9,furniture/equipment,existing credits paid back duly,1.0,0,0,0.18913729048146072
+430,55,female,non-single/single,unemployed,unemployed,for free,none,2,< 0 DM,< 100 DM,1190,18,repairs,critical account/other credits existing (outside this bank),2.0,1,1,0.8014756046442982
+431,74,male,single,unskilled employee,4 - 7 years,own,none,1,no account,< 100 DM,3448,5,business,existing credits paid back duly,1.0,0,0,0.10867766275843949
+432,29,male,single,highly skilled employee,1 - 4 years,own,co-applicant,1,0 - 200 DM,< 100 DM,11328,24,other,existing credits paid back duly,2.0,1,1,0.5276370060960228
+433,36,male,single,highly skilled employee,unemployed,for free,none,1,< 0 DM,< 100 DM,1872,6,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.46178727210095166
+434,33,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2058,24,repairs,critical account/other credits existing (outside this bank),4.0,0,0,0.3856335586429884
+435,25,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,2136,9,furniture/equipment,existing credits paid back duly,3.0,0,0,0.49768900388152326
+436,25,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,1484,12,radio/television,existing credits paid back duly,2.0,1,0,0.2593943352629368
+437,23,male,married/widowed,unskilled employee,4 - 7 years,rent,none,1,no account,"500 - 1,000 DM",660,6,repairs,existing credits paid back duly,2.0,0,0,0.24981931355148035
+438,37,female,non-single/single,skilled employee,> 7 years,own,none,1,no account,"> 1,000 DM",1287,24,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.14285719044283526
+439,65,male,single,unemployed,unemployed,own,co-applicant,1,< 0 DM,< 100 DM,3394,42,repairs,critical account/other credits existing (outside this bank),4.0,0,1,0.8947625364286327
+440,26,female,non-single/single,unemployed,< 1 year,own,none,1,>= 200 DM,< 100 DM,609,12,business,all credits at this bank paid back duly,4.0,1,1,0.6152293565996648
+441,39,male,single,highly skilled employee,> 7 years,own,none,1,no account,< 100 DM,1884,12,car (new),existing credits paid back duly,4.0,0,0,0.29527994975312677
+442,30,female,non-single/single,skilled employee,1 - 4 years,own,co-applicant,1,< 0 DM,< 100 DM,1620,12,furniture/equipment,existing credits paid back duly,2.0,0,1,0.6991598066196384
+443,29,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,2629,20,other,delay paying off in the past,2.0,0,0,0.302402132553237
+444,41,male,single,unskilled employee,> 7 years,own,none,2,no account,< 100 DM,719,12,education,existing credits paid back duly,4.0,1,0,0.4335813714223338
+445,30,female,non-single/single,highly skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,5096,48,furniture/equipment,critical account/other credits existing (outside this bank),2.0,1,1,0.732284597446061
+446,41,female,non-single/single,unskilled employee,> 7 years,rent,none,1,no account,unknown/no savings,1244,9,education,critical account/other credits existing (outside this bank),4.0,0,0,0.2853526844304841
+447,34,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,1842,36,car (new),existing credits paid back duly,4.0,1,1,0.9069624794206509
+448,35,male,single,skilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,< 100 DM,2576,7,radio/television,existing credits paid back duly,2.0,0,0,0.22660976642583797
+449,55,female,non-single/single,highly skilled employee,> 7 years,own,none,1,>= 200 DM,unknown/no savings,1424,12,furniture/equipment,existing credits paid back duly,3.0,0,0,0.28625166165393356
+450,61,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,"> 1,000 DM",1512,15,repairs,delay paying off in the past,3.0,1,0,0.4457774022877109
+451,30,male,single,highly skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,11054,36,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.09162000340386417
+452,29,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,518,6,radio/television,existing credits paid back duly,3.0,0,0,0.1733693922181546
+453,34,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,2759,12,furniture/equipment,no credits/paid back duly,2.0,0,0,0.3941672421256437
+454,35,male,single,highly skilled employee,> 7 years,own,none,1,no account,< 100 DM,2670,24,car (used),existing credits paid back duly,4.0,0,0,0.1588633801033665
+455,31,male,single,skilled employee,4 - 7 years,own,co-applicant,1,< 0 DM,< 100 DM,4817,24,car (new),existing credits paid back duly,2.0,1,1,0.7510680286189254
+456,29,female,non-single/single,highly skilled employee,< 1 year,own,none,1,no account,< 100 DM,2679,24,car (used),existing credits paid back duly,4.0,0,0,0.278138656568571
+457,36,male,single,skilled employee,1 - 4 years,rent,none,2,< 0 DM,< 100 DM,3905,11,car (new),critical account/other credits existing (outside this bank),2.0,0,1,0.6082419655633632
+458,35,male,single,skilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,3386,12,car (used),existing credits paid back duly,3.0,1,0,0.4267428611470212
+459,27,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,343,6,domestic appliance,existing credits paid back duly,4.0,0,1,0.6169959468824884
+460,32,male,single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,4594,18,radio/television,existing credits paid back duly,3.0,0,0,0.30290379622145813
+461,37,male,single,skilled employee,1 - 4 years,own,gurantor,2,< 0 DM,< 100 DM,3620,36,furniture/equipment,existing credits paid back duly,1.0,0,1,0.6321791514715851
+462,36,male,single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,1721,15,car (new),existing credits paid back duly,2.0,0,1,0.7455326326580076
+463,34,female,non-single/single,highly skilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,3017,12,furniture/equipment,existing credits paid back duly,3.0,0,1,0.7432345643953033
+464,38,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,unknown/no savings,754,12,retraining,existing credits paid back duly,4.0,0,0,0.16866813068904313
+465,34,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1950,18,business,existing credits paid back duly,4.0,0,0,0.15408498445218732
+466,63,male,single,skilled employee,1 - 4 years,own,gurantor,2,< 0 DM,< 100 DM,2924,24,car (used),existing credits paid back duly,3.0,0,0,0.3088387935530063
+467,29,female,non-single/single,unskilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,1659,24,radio/television,delay paying off in the past,4.0,1,1,0.8452395166816173
+468,32,male,single,skilled employee,> 7 years,own,none,2,no account,unknown/no savings,7238,48,radio/television,delay paying off in the past,3.0,0,0,0.35804132417692447
+469,26,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2764,33,business,delay paying off in the past,2.0,0,0,0.4512460543359009
+470,35,male,single,unskilled employee,4 - 7 years,own,none,1,no account,< 100 DM,4679,24,car (used),delay paying off in the past,3.0,0,0,0.11724021262752726
+471,22,male,married/widowed,skilled employee,< 1 year,rent,none,1,0 - 200 DM,100 - 500 DM,3092,24,radio/television,existing credits paid back duly,3.0,1,1,0.7268837064167176
+472,23,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,448,6,education,existing credits paid back duly,4.0,1,1,0.8503813776897944
+473,28,male,single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,654,9,car (new),existing credits paid back duly,4.0,1,1,0.5850241071125134
+474,36,male,single,highly skilled employee,unemployed,own,none,2,no account,unknown/no savings,1238,6,retraining,existing credits paid back duly,4.0,0,0,0.06327716732848399
+475,33,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1245,18,radio/television,critical account/other credits existing (outside this bank),4.0,1,0,0.3402672806900843
+476,26,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,3114,18,furniture/equipment,no credits/paid back duly,1.0,1,1,0.9257637978897711
+477,24,male,single,skilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",2569,39,car (used),existing credits paid back duly,4.0,0,0,0.1560044177072224
+478,25,male,single,skilled employee,4 - 7 years,own,none,1,>= 200 DM,< 100 DM,5152,24,radio/television,existing credits paid back duly,4.0,0,0,0.35244546466129667
+479,39,male,single,unskilled employee,4 - 7 years,own,none,1,0 - 200 DM,100 - 500 DM,1037,12,business,existing credits paid back duly,3.0,0,0,0.2545191001384911
+480,44,male,single,skilled employee,> 7 years,own,none,2,< 0 DM,< 100 DM,1478,15,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.42176483159570893
+481,23,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,3573,12,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.34220871864702734
+482,26,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,1201,24,car (new),existing credits paid back duly,4.0,0,1,0.7275573158962213
+483,57,female,non-single/single,skilled employee,> 7 years,rent,none,1,< 0 DM,"> 1,000 DM",3622,30,furniture/equipment,existing credits paid back duly,4.0,0,1,0.6802127650424667
+484,30,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,"> 1,000 DM",960,15,furniture/equipment,delay paying off in the past,3.0,0,0,0.08095758294212446
+485,44,male,single,skilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",1163,12,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.1070350491286193
+486,47,male,single,highly skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,1209,6,car (new),delay paying off in the past,4.0,1,1,0.5761475878597726
+487,52,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,3077,12,radio/television,existing credits paid back duly,2.0,0,0,0.1691942227786973
+488,62,female,non-single/single,skilled employee,> 7 years,for free,co-applicant,1,no account,< 100 DM,3757,24,car (new),existing credits paid back duly,4.0,0,1,0.6700228315422013
+489,35,male,single,unskilled employee,1 - 4 years,rent,none,1,no account,100 - 500 DM,1418,10,car (new),existing credits paid back duly,3.0,0,0,0.2944862899864417
+490,26,male,single,skilled employee,1 - 4 years,rent,gurantor,1,no account,< 100 DM,3518,6,car (new),existing credits paid back duly,2.0,0,0,0.2266280765532708
+491,26,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,1934,12,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.10416527182275703
+492,42,female,non-single/single,highly skilled employee,> 7 years,for free,none,1,0 - 200 DM,< 100 DM,8318,27,business,no credits/paid back duly,2.0,1,1,0.8975215449714993
+493,27,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,1237,6,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.08511169151112834
+494,38,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,unknown/no savings,368,6,radio/television,existing credits paid back duly,4.0,0,0,0.1807440654404939
+495,39,male,single,unskilled employee,1 - 4 years,rent,none,2,< 0 DM,< 100 DM,2122,12,car (new),critical account/other credits existing (outside this bank),3.0,0,1,0.5922223418727922
+496,20,male,married/widowed,skilled employee,1 - 4 years,own,none,1,< 0 DM,unknown/no savings,2996,24,furniture/equipment,existing credits paid back duly,2.0,1,1,0.5269254658174488
+497,29,male,single,highly skilled employee,< 1 year,rent,co-applicant,1,0 - 200 DM,100 - 500 DM,9034,36,furniture/equipment,existing credits paid back duly,4.0,1,1,0.8861823315174565
+498,40,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1585,24,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.1137950713673119
+499,32,male,married/widowed,unskilled employee,> 7 years,own,gurantor,1,0 - 200 DM,< 100 DM,1301,18,radio/television,existing credits paid back duly,4.0,0,0,0.39039786471087345
+500,28,male,divorved/separated,skilled employee,> 7 years,own,none,2,>= 200 DM,100 - 500 DM,1323,6,car (new),critical account/other credits existing (outside this bank),2.0,0,0,0.32160635380354863
+501,27,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,3123,24,car (new),existing credits paid back duly,4.0,1,1,0.8699607590426255
+502,42,male,single,skilled employee,> 7 years,for free,none,2,< 0 DM,< 100 DM,5493,36,car (used),existing credits paid back duly,2.0,0,1,0.6750649642271531
+503,49,male,divorved/separated,skilled employee,> 7 years,own,none,1,>= 200 DM,100 - 500 DM,1126,9,radio/television,existing credits paid back duly,2.0,0,0,0.3382088921289999
+504,38,male,single,skilled employee,< 1 year,own,none,2,0 - 200 DM,100 - 500 DM,1216,24,radio/television,critical account/other credits existing (outside this bank),4.0,1,0,0.37112721382485653
+505,24,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,1207,24,car (new),existing credits paid back duly,4.0,1,1,0.904533204665493
+506,27,male,single,unskilled employee,1 - 4 years,own,gurantor,1,no account,unknown/no savings,1309,10,car (new),existing credits paid back duly,4.0,1,0,0.07791185668942721
+507,36,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,"500 - 1,000 DM",2360,15,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.08236810392966282
+508,34,male,single,highly skilled employee,unemployed,own,none,2,0 - 200 DM,100 - 500 DM,6850,15,car (new),all credits at this bank paid back duly,1.0,1,1,0.7438300792836393
+509,28,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1413,24,radio/television,existing credits paid back duly,4.0,0,0,0.2828475431958673
+510,45,male,single,highly skilled employee,> 7 years,own,none,1,no account,100 - 500 DM,8588,39,car (used),existing credits paid back duly,4.0,0,0,0.2725826325386855
+511,26,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,759,12,car (new),existing credits paid back duly,4.0,1,1,0.5125824463535894
+512,32,male,single,highly skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,4686,36,car (used),existing credits paid back duly,2.0,0,0,0.27173259249339793
+513,26,male,single,skilled employee,4 - 7 years,rent,none,1,>= 200 DM,< 100 DM,2687,15,business,existing credits paid back duly,2.0,0,0,0.3798345447540931
+514,20,male,married/widowed,skilled employee,1 - 4 years,rent,co-applicant,1,0 - 200 DM,< 100 DM,585,12,radio/television,delay paying off in the past,4.0,0,1,0.6470465561542859
+515,54,male,single,skilled employee,< 1 year,own,none,1,no account,unknown/no savings,2255,24,car (new),existing credits paid back duly,4.0,0,0,0.290336481328384
+516,37,female,non-single/single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,609,6,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.39927131980571207
+517,40,male,single,unskilled employee,< 1 year,own,none,2,< 0 DM,< 100 DM,1361,6,car (new),critical account/other credits existing (outside this bank),2.0,0,1,0.5214697226422008
+518,23,female,non-single/single,skilled employee,< 1 year,rent,none,1,no account,< 100 DM,7127,36,furniture/equipment,critical account/other credits existing (outside this bank),2.0,1,1,0.6092112424424357
+519,43,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,100 - 500 DM,1203,6,car (new),existing credits paid back duly,3.0,0,1,0.5430926740445599
+520,36,male,single,skilled employee,> 7 years,for free,none,1,no account,unknown/no savings,700,6,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.04710149113206354
+521,44,male,single,skilled employee,> 7 years,for free,none,1,no account,< 100 DM,5507,24,repairs,critical account/other credits existing (outside this bank),3.0,0,0,0.4266010817323801
+522,24,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,3190,18,radio/television,existing credits paid back duly,2.0,1,1,0.6410642222129758
+523,53,male,single,skilled employee,1 - 4 years,for free,none,2,< 0 DM,< 100 DM,7119,48,furniture/equipment,no credits/paid back duly,3.0,1,1,0.9440242764819078
+524,23,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,3488,24,car (used),existing credits paid back duly,3.0,0,0,0.12052830573115351
+525,26,female,non-single/single,unskilled employee,1 - 4 years,own,gurantor,2,0 - 200 DM,< 100 DM,1113,18,radio/television,existing credits paid back duly,4.0,0,0,0.37886634935286634
+526,30,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,7966,26,car (used),existing credits paid back duly,2.0,0,1,0.5397297685349474
+527,31,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,1532,15,education,critical account/other credits existing (outside this bank),4.0,0,0,0.33345667978946175
+528,42,male,single,unskilled employee,4 - 7 years,own,none,2,no account,< 100 DM,1503,4,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.046269017996030185
+529,31,male,divorved/separated,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,2302,36,radio/television,existing credits paid back duly,4.0,1,1,0.842286280480376
+530,41,male,single,unskilled employee,< 1 year,own,none,2,< 0 DM,< 100 DM,662,6,car (new),existing credits paid back duly,3.0,0,1,0.662467094126766
+531,32,male,single,skilled employee,4 - 7 years,own,none,2,0 - 200 DM,< 100 DM,2273,36,education,existing credits paid back duly,3.0,0,1,0.7878405424578714
+532,28,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,0 - 200 DM,100 - 500 DM,2631,15,car (new),existing credits paid back duly,2.0,1,1,0.715772794909533
+533,41,male,married/widowed,skilled employee,1 - 4 years,rent,none,1,no account,< 100 DM,1503,12,car (used),delay paying off in the past,4.0,0,0,0.18587487958521517
+534,26,male,married/widowed,skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,1311,24,radio/television,existing credits paid back duly,4.0,0,0,0.17162373300280714
+535,25,male,single,skilled employee,< 1 year,own,none,1,no account,unknown/no savings,3105,24,radio/television,existing credits paid back duly,4.0,0,0,0.18249858159163948
+536,33,male,divorved/separated,skilled employee,< 1 year,rent,none,1,>= 200 DM,< 100 DM,2319,21,education,critical account/other credits existing (outside this bank),2.0,1,1,0.8235369918304184
+537,75,female,non-single/single,highly skilled employee,unemployed,own,none,1,< 0 DM,unknown/no savings,1374,6,car (new),existing credits paid back duly,4.0,0,1,0.5596461544413666
+538,37,female,non-single/single,skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,3612,18,furniture/equipment,critical account/other credits existing (outside this bank),3.0,0,0,0.48161701947598917
+539,42,male,single,highly skilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,7763,48,car (new),existing credits paid back duly,4.0,1,1,0.9314970038442698
+540,45,female,non-single/single,unskilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,3049,18,furniture/equipment,existing credits paid back duly,1.0,0,1,0.6269787143815544
+541,23,male,married/widowed,skilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,1534,12,radio/television,existing credits paid back duly,1.0,1,1,0.6596784967420374
+542,60,male,single,skilled employee,> 7 years,for free,none,1,no account,< 100 DM,2032,24,car (new),delay paying off in the past,4.0,0,0,0.47890539624852
+543,31,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,unknown/no savings,6350,30,furniture/equipment,existing credits paid back duly,4.0,1,1,0.5887523858817848
+544,34,male,single,unskilled employee,1 - 4 years,own,none,2,>= 200 DM,< 100 DM,2864,18,furniture/equipment,existing credits paid back duly,2.0,1,0,0.4158536874704762
+545,61,male,single,unskilled employee,> 7 years,own,none,1,no account,< 100 DM,1255,12,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.17711670739459884
+546,43,male,single,skilled employee,unemployed,for free,none,2,< 0 DM,< 100 DM,1333,24,car (new),delay paying off in the past,4.0,1,1,0.8374579085468242
+547,37,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2022,24,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.31638806174990297
+548,32,male,single,skilled employee,4 - 7 years,own,none,2,no account,< 100 DM,1552,24,radio/television,existing credits paid back duly,3.0,0,0,0.16229370623986314
+549,24,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,626,12,radio/television,all credits at this bank paid back duly,4.0,1,1,0.6452193544479179
+550,35,male,single,skilled employee,4 - 7 years,for free,none,1,no account,unknown/no savings,8858,48,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.10563939792504343
+551,23,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,996,12,repairs,critical account/other credits existing (outside this bank),4.0,0,0,0.09921718001711219
+552,45,male,single,unskilled employee,> 7 years,own,none,2,no account,"500 - 1,000 DM",1750,6,radio/television,all credits at this bank paid back duly,2.0,0,0,0.14073122875427047
+553,34,male,married/widowed,skilled employee,4 - 7 years,own,gurantor,1,< 0 DM,< 100 DM,6999,48,radio/television,existing credits paid back duly,1.0,1,1,0.7046653682898879
+554,27,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,1995,12,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.43100898474432425
+555,67,female,non-single/single,highly skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,1199,9,education,existing credits paid back duly,4.0,0,1,0.654349861430239
+556,22,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,1331,12,radio/television,existing credits paid back duly,2.0,1,0,0.47074905643489706
+557,28,female,non-single/single,skilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,2278,18,car (new),no credits/paid back duly,3.0,1,1,0.8614191783557141
+558,29,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,5003,21,car (new),no credits/paid back duly,1.0,1,0,0.48606349309789365
+559,27,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,3552,24,furniture/equipment,all credits at this bank paid back duly,3.0,1,1,0.6501901266836413
+560,31,male,single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,1928,18,furniture/equipment,critical account/other credits existing (outside this bank),2.0,1,0,0.432990163119946
+561,49,male,single,skilled employee,> 7 years,for free,none,2,< 0 DM,unknown/no savings,2964,24,car (used),existing credits paid back duly,4.0,0,0,0.33783888443427257
+562,24,male,single,unskilled employee,4 - 7 years,rent,gurantor,1,< 0 DM,< 100 DM,1546,24,radio/television,all credits at this bank paid back duly,4.0,1,1,0.5485075548278563
+563,29,female,non-single/single,skilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,683,6,radio/television,delay paying off in the past,2.0,0,0,0.44802504383866554
+564,37,male,single,skilled employee,1 - 4 years,for free,none,1,0 - 200 DM,unknown/no savings,12389,36,car (new),existing credits paid back duly,1.0,1,1,0.7480202635937978
+565,37,male,single,highly skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,4712,24,business,delay paying off in the past,4.0,0,0,0.3783416165106346
+566,23,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,0 - 200 DM,100 - 500 DM,1553,24,radio/television,delay paying off in the past,3.0,0,1,0.5522124792513433
+567,36,male,divorved/separated,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,1372,12,car (new),existing credits paid back duly,2.0,1,1,0.6227226179563694
+568,34,male,single,skilled employee,> 7 years,own,none,1,no account,"> 1,000 DM",2578,24,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.058597216253145075
+569,41,male,single,skilled employee,4 - 7 years,own,none,2,0 - 200 DM,unknown/no savings,3979,48,radio/television,existing credits paid back duly,4.0,0,0,0.4334973390394154
+570,31,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,6758,48,radio/television,existing credits paid back duly,3.0,1,1,0.8718712043414362
+571,23,female,non-single/single,unskilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,3234,24,furniture/equipment,existing credits paid back duly,4.0,1,1,0.8730137905272941
+572,38,male,single,skilled employee,4 - 7 years,own,co-applicant,1,no account,< 100 DM,5954,30,radio/television,critical account/other credits existing (outside this bank),3.0,0,0,0.19431876975400295
+573,26,female,non-single/single,highly skilled employee,unemployed,rent,none,1,no account,unknown/no savings,5433,24,car (used),existing credits paid back duly,2.0,0,0,0.2290795626666214
+574,22,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,806,15,business,existing credits paid back duly,4.0,0,1,0.614986252317908
+575,27,male,single,unskilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1082,9,radio/television,existing credits paid back duly,4.0,0,0,0.3653837649651157
+576,24,female,non-single/single,skilled employee,4 - 7 years,own,co-applicant,1,no account,< 100 DM,2788,15,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.17496398434180976
+577,27,female,non-single/single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,2930,12,radio/television,existing credits paid back duly,2.0,0,0,0.38368800566230254
+578,33,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,1927,24,education,critical account/other credits existing (outside this bank),3.0,0,0,0.28705759270047676
+579,27,male,divorved/separated,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,2820,36,car (new),critical account/other credits existing (outside this bank),4.0,1,1,0.7882034492152442
+580,27,male,married/widowed,unskilled employee,< 1 year,own,none,1,no account,< 100 DM,937,24,retraining,existing credits paid back duly,4.0,0,0,0.30004243571099937
+581,30,male,single,skilled employee,> 7 years,own,gurantor,1,0 - 200 DM,< 100 DM,1056,18,car (new),critical account/other credits existing (outside this bank),3.0,1,0,0.32285850129473737
+582,49,male,single,unskilled employee,< 1 year,own,none,2,0 - 200 DM,< 100 DM,3124,12,car (new),critical account/other credits existing (outside this bank),1.0,0,1,0.5035161223863583
+583,26,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,no account,< 100 DM,1388,9,furniture/equipment,existing credits paid back duly,4.0,0,0,0.3269888157041711
+584,33,male,single,unskilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,2384,36,repairs,existing credits paid back duly,4.0,1,1,0.9051605629336336
+585,52,female,non-single/single,highly skilled employee,> 7 years,for free,none,1,no account,unknown/no savings,2133,12,car (new),existing credits paid back duly,4.0,0,0,0.26742096920960373
+586,20,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,2039,18,furniture/equipment,existing credits paid back duly,1.0,1,1,0.7665415802714516
+587,36,male,single,skilled employee,1 - 4 years,rent,none,2,< 0 DM,< 100 DM,2799,9,car (new),critical account/other credits existing (outside this bank),2.0,0,1,0.5744243556325616
+588,21,male,single,unskilled employee,1 - 4 years,own,gurantor,1,< 0 DM,< 100 DM,1289,12,furniture/equipment,existing credits paid back duly,4.0,0,0,0.3780403060647491
+589,47,male,married/widowed,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1217,18,domestic appliance,existing credits paid back duly,4.0,1,1,0.6078105155297069
+590,60,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,2246,12,furniture/equipment,critical account/other credits existing (outside this bank),3.0,1,0,0.4052976724827633
+591,58,female,non-single/single,unskilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,385,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.2991393251632897
+592,42,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,0 - 200 DM,unknown/no savings,1965,24,car (new),delay paying off in the past,4.0,0,1,0.6731586583669668
+593,36,female,non-single/single,unskilled employee,> 7 years,own,none,1,no account,"> 1,000 DM",1572,21,business,existing credits paid back duly,4.0,0,0,0.14512218077183298
+594,20,female,non-single/single,unskilled employee,1 - 4 years,rent,none,1,0 - 200 DM,< 100 DM,2718,24,car (new),existing credits paid back duly,3.0,1,1,0.816527677870904
+595,40,male,single,highly skilled employee,> 7 years,own,none,1,< 0 DM,unknown/no savings,1358,24,other,all credits at this bank paid back duly,4.0,1,0,0.32916999526603147
+596,32,female,non-single/single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,931,6,car (new),all credits at this bank paid back duly,1.0,1,1,0.7031781929260748
+597,23,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,< 0 DM,< 100 DM,1442,24,car (new),existing credits paid back duly,4.0,1,1,0.8032937821130955
+598,36,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,4241,24,business,no credits/paid back duly,1.0,1,1,0.7370124002479543
+599,31,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,2775,18,car (new),critical account/other credits existing (outside this bank),2.0,1,0,0.14564508803444956
+600,32,male,single,skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,3863,24,business,delay paying off in the past,1.0,0,0,0.34801862420722623
+601,45,female,non-single/single,skilled employee,< 1 year,own,gurantor,1,0 - 200 DM,< 100 DM,2329,7,radio/television,existing credits paid back duly,1.0,0,0,0.40281435932690884
+602,30,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,918,9,furniture/equipment,existing credits paid back duly,4.0,1,0,0.4809084756094404
+603,34,female,non-single/single,unskilled employee,4 - 7 years,for free,none,1,0 - 200 DM,< 100 DM,1837,24,education,all credits at this bank paid back duly,4.0,1,1,0.8677291229088983
+604,28,female,non-single/single,highly skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,3349,36,furniture/equipment,existing credits paid back duly,4.0,1,0,0.4871568825233302
+605,23,female,non-single/single,skilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,1275,10,furniture/equipment,existing credits paid back duly,4.0,0,1,0.5285739170241097
+606,22,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,"500 - 1,000 DM",2828,24,furniture/equipment,all credits at this bank paid back duly,4.0,0,1,0.633066022338126
+607,74,male,single,highly skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,4526,24,business,critical account/other credits existing (outside this bank),3.0,0,0,0.17602129256583512
+608,50,female,non-single/single,skilled employee,1 - 4 years,for free,co-applicant,1,0 - 200 DM,100 - 500 DM,2671,36,radio/television,existing credits paid back duly,4.0,1,1,0.7707110679458978
+609,33,male,single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,2051,18,radio/television,existing credits paid back duly,4.0,0,0,0.2724163473670273
+610,45,male,single,skilled employee,> 7 years,for free,none,2,no account,unknown/no savings,1300,15,car (used),existing credits paid back duly,4.0,0,0,0.06642359209170016
+611,22,female,non-single/single,skilled employee,unemployed,own,none,1,< 0 DM,100 - 500 DM,741,12,domestic appliance,existing credits paid back duly,4.0,1,1,0.6043150168358922
+612,48,female,non-single/single,unskilled employee,> 7 years,for free,none,2,>= 200 DM,100 - 500 DM,1240,10,car (new),existing credits paid back duly,1.0,1,1,0.5660532591935531
+613,29,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,"> 1,000 DM",3357,21,radio/television,existing credits paid back duly,4.0,0,1,0.5079530745542018
+614,22,female,non-single/single,skilled employee,1 - 4 years,rent,gurantor,1,< 0 DM,< 100 DM,3632,24,car (used),all credits at this bank paid back duly,1.0,0,1,0.6212973454547941
+615,22,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1808,18,furniture/equipment,delay paying off in the past,4.0,1,0,0.23998046709869242
+616,48,male,single,highly skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,12204,48,business,no credits/paid back duly,2.0,0,1,0.8313364119605077
+617,27,male,single,highly skilled employee,1 - 4 years,for free,none,1,0 - 200 DM,unknown/no savings,9157,60,radio/television,delay paying off in the past,2.0,0,1,0.7728480752294129
+618,37,male,single,skilled employee,1 - 4 years,rent,none,2,< 0 DM,< 100 DM,3676,6,car (new),critical account/other credits existing (outside this bank),1.0,0,1,0.5593195821186723
+619,21,female,non-single/single,skilled employee,1 - 4 years,rent,co-applicant,1,0 - 200 DM,100 - 500 DM,3441,30,furniture/equipment,existing credits paid back duly,2.0,1,1,0.8116588280939805
+620,49,male,divorved/separated,unskilled employee,1 - 4 years,own,none,1,no account,< 100 DM,640,12,car (new),existing credits paid back duly,4.0,0,0,0.3399278281394233
+621,27,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,3652,21,business,critical account/other credits existing (outside this bank),2.0,0,0,0.2715967916973741
+622,32,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1530,18,car (new),critical account/other credits existing (outside this bank),3.0,1,0,0.19310563556081523
+623,38,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,3914,48,business,existing credits paid back duly,4.0,1,0,0.3925103116291829
+624,22,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,1858,12,furniture/equipment,existing credits paid back duly,4.0,0,1,0.80152018038106
+625,65,male,single,skilled employee,1 - 4 years,for free,none,1,< 0 DM,< 100 DM,2600,18,radio/television,existing credits paid back duly,4.0,1,1,0.5957024731556659
+626,35,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,1979,15,radio/television,existing credits paid back duly,4.0,0,0,0.09871934989847507
+627,41,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,2116,6,furniture/equipment,existing credits paid back duly,2.0,0,0,0.302567870122563
+628,29,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,100 - 500 DM,1437,9,car (new),all credits at this bank paid back duly,2.0,1,0,0.4364949572738935
+629,36,male,single,skilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",4042,42,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.22036214622147277
+630,64,male,single,unskilled employee,> 7 years,own,none,1,no account,unknown/no savings,3832,9,education,existing credits paid back duly,1.0,0,0,0.2684638218875244
+631,28,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,3660,24,radio/television,existing credits paid back duly,2.0,0,1,0.6970411850152353
+632,44,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1553,18,furniture/equipment,all credits at this bank paid back duly,4.0,1,1,0.6657898969054927
+633,23,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,unknown/no savings,1444,15,radio/television,existing credits paid back duly,4.0,0,0,0.3095515980990824
+634,19,female,non-single/single,skilled employee,< 1 year,rent,co-applicant,1,no account,< 100 DM,1980,9,furniture/equipment,existing credits paid back duly,2.0,1,1,0.5302136530276869
+635,25,female,non-single/single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,1355,24,car (new),existing credits paid back duly,3.0,1,1,0.8015906835082296
+636,47,male,single,skilled employee,> 7 years,own,none,2,no account,< 100 DM,1393,12,education,existing credits paid back duly,4.0,0,0,0.4432969396694647
+637,28,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,"500 - 1,000 DM",1376,24,radio/television,existing credits paid back duly,4.0,0,0,0.15567274739146889
+638,21,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,15653,60,radio/television,delay paying off in the past,2.0,0,1,0.6495266746591022
+639,34,female,non-single/single,skilled employee,< 1 year,own,none,2,no account,< 100 DM,1493,12,radio/television,existing credits paid back duly,4.0,0,0,0.30241456253173926
+640,26,male,single,skilled employee,4 - 7 years,own,none,2,< 0 DM,< 100 DM,4370,42,radio/television,delay paying off in the past,3.0,1,1,0.6927727787235438
+641,27,female,non-single/single,unemployed,unemployed,own,none,1,< 0 DM,< 100 DM,750,18,education,existing credits paid back duly,4.0,1,1,0.8937923799010209
+642,38,male,single,unskilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1308,15,repairs,existing credits paid back duly,4.0,0,1,0.6536526417475437
+643,40,male,single,highly skilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,4623,15,education,existing credits paid back duly,3.0,1,0,0.42866461384603705
+644,33,male,married/widowed,skilled employee,4 - 7 years,own,gurantor,1,no account,< 100 DM,1851,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.07599423027095631
+645,32,male,married/widowed,highly skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,1880,18,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.3461049746448732
+646,27,male,single,skilled employee,< 1 year,rent,none,1,no account,unknown/no savings,7980,36,business,delay paying off in the past,4.0,1,0,0.47915186087046135
+647,32,male,divorved/separated,skilled employee,1 - 4 years,own,gurantor,1,< 0 DM,< 100 DM,4583,30,furniture/equipment,no credits/paid back duly,2.0,0,1,0.834155484199539
+648,26,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",1386,12,car (new),existing credits paid back duly,2.0,1,0,0.25463402172855665
+649,38,male,single,skilled employee,4 - 7 years,for free,none,2,>= 200 DM,< 100 DM,947,24,car (new),existing credits paid back duly,4.0,1,1,0.512036361886208
+650,40,male,single,unskilled employee,1 - 4 years,rent,none,2,< 0 DM,< 100 DM,684,12,education,existing credits paid back duly,4.0,1,1,0.830489547051831
+651,50,male,single,highly skilled employee,4 - 7 years,for free,none,1,< 0 DM,< 100 DM,7476,48,education,existing credits paid back duly,4.0,0,1,0.9379664041063726
+652,37,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1922,12,furniture/equipment,existing credits paid back duly,4.0,1,0,0.42317978005329504
+653,45,male,single,skilled employee,> 7 years,own,co-applicant,1,< 0 DM,< 100 DM,2303,24,car (new),existing credits paid back duly,4.0,1,1,0.8183236709388296
+654,42,male,single,highly skilled employee,> 7 years,own,none,1,0 - 200 DM,100 - 500 DM,8086,36,car (new),delay paying off in the past,2.0,1,1,0.7992861770181867
+655,35,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,2346,24,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.05401898661785628
+656,22,male,single,skilled employee,unemployed,for free,none,1,< 0 DM,< 100 DM,3973,14,car (new),existing credits paid back duly,1.0,0,1,0.7924241641983717
+657,41,male,single,unskilled employee,> 7 years,own,none,2,0 - 200 DM,< 100 DM,888,12,car (new),existing credits paid back duly,4.0,1,1,0.5510631774468123
+658,37,male,single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,10222,48,radio/television,existing credits paid back duly,4.0,0,0,0.2620703751551955
+659,28,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,4221,30,business,no credits/paid back duly,2.0,0,1,0.8402454400011138
+660,41,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,6361,18,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.421260810404506
+661,23,male,married/widowed,skilled employee,1 - 4 years,rent,none,1,>= 200 DM,< 100 DM,1297,12,radio/television,existing credits paid back duly,3.0,0,0,0.47345653656665726
+662,23,male,married/widowed,skilled employee,1 - 4 years,own,none,1,< 0 DM,unknown/no savings,900,12,car (new),existing credits paid back duly,4.0,1,0,0.4932620985389519
+663,50,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,2241,21,furniture/equipment,existing credits paid back duly,4.0,0,0,0.27892398855852396
+664,35,male,single,highly skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,1050,6,furniture/equipment,delay paying off in the past,4.0,0,0,0.46461513521893677
+665,50,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,1047,6,education,critical account/other credits existing (outside this bank),2.0,0,0,0.4970682685772866
+666,27,male,single,highly skilled employee,unemployed,own,co-applicant,1,no account,< 100 DM,6314,24,other,critical account/other credits existing (outside this bank),4.0,0,0,0.17096971804405173
+667,34,male,single,skilled employee,1 - 4 years,own,none,2,0 - 200 DM,"> 1,000 DM",3496,30,furniture/equipment,all credits at this bank paid back duly,4.0,0,0,0.435245810582451
+668,27,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,3609,48,business,all credits at this bank paid back duly,1.0,0,1,0.6756822072113456
+669,43,male,single,skilled employee,> 7 years,rent,co-applicant,1,< 0 DM,< 100 DM,4843,12,car (new),critical account/other credits existing (outside this bank),3.0,1,1,0.7375288153047534
+670,47,male,single,skilled employee,> 7 years,own,none,1,>= 200 DM,< 100 DM,3017,30,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.35687338444869826
+671,27,male,single,unskilled employee,1 - 4 years,own,none,1,no account,100 - 500 DM,4139,24,business,critical account/other credits existing (outside this bank),3.0,0,0,0.1428402969322345
+672,31,male,single,skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,5742,36,business,existing credits paid back duly,2.0,0,0,0.2632069730766819
+673,42,male,single,highly skilled employee,> 7 years,own,none,1,no account,< 100 DM,10366,60,car (new),existing credits paid back duly,2.0,0,1,0.8073188109948098
+674,24,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",2080,6,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.1206234600248595
+675,41,male,single,unskilled employee,< 1 year,own,none,2,no account,"500 - 1,000 DM",2580,21,business,delay paying off in the past,4.0,1,0,0.2565823259135341
+676,26,female,non-single/single,highly skilled employee,4 - 7 years,rent,none,1,no account,< 100 DM,4530,30,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.2679070861150495
+677,33,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,5150,24,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.21485296580772104
+678,24,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,100 - 500 DM,5595,72,radio/television,existing credits paid back duly,2.0,1,1,0.8836931896727284
+679,64,male,single,unskilled employee,> 7 years,rent,none,1,< 0 DM,< 100 DM,2384,24,radio/television,existing credits paid back duly,4.0,0,1,0.7210260488680702
+680,26,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,1453,18,radio/television,existing credits paid back duly,3.0,0,0,0.35150632490733064
+681,56,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,1538,6,education,existing credits paid back duly,1.0,0,1,0.5664601586121986
+682,37,male,single,skilled employee,1 - 4 years,for free,none,1,no account,unknown/no savings,2279,12,radio/television,existing credits paid back duly,4.0,0,0,0.10015491124758474
+683,33,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1478,15,radio/television,delay paying off in the past,4.0,0,0,0.23379105946272632
+684,47,male,married/widowed,skilled employee,< 1 year,for free,none,1,no account,< 100 DM,5103,24,radio/television,critical account/other credits existing (outside this bank),3.0,0,0,0.3422629058975536
+685,31,male,single,unskilled employee,4 - 7 years,own,none,2,0 - 200 DM,100 - 500 DM,9857,36,business,delay paying off in the past,1.0,0,1,0.6041728998859597
+686,34,male,single,skilled employee,1 - 4 years,for free,none,2,no account,unknown/no savings,6527,60,car (new),existing credits paid back duly,4.0,0,1,0.6259041291456547
+687,27,male,single,skilled employee,4 - 7 years,own,none,1,>= 200 DM,unknown/no savings,1347,10,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.05777498767331774
+688,30,male,single,skilled employee,> 7 years,for free,none,1,0 - 200 DM,100 - 500 DM,2862,36,car (new),delay paying off in the past,4.0,0,1,0.7896992509365043
+689,35,male,single,skilled employee,> 7 years,own,co-applicant,1,no account,100 - 500 DM,2753,9,radio/television,existing credits paid back duly,3.0,0,0,0.19027929675941366
+690,31,male,single,skilled employee,1 - 4 years,own,none,2,< 0 DM,"> 1,000 DM",3651,12,car (new),existing credits paid back duly,1.0,0,0,0.3817033693044456
+691,25,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,975,15,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.4835341247991433
+692,25,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,100 - 500 DM,2631,15,repairs,existing credits paid back duly,3.0,0,1,0.6805032135136252
+693,29,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,2896,24,radio/television,existing credits paid back duly,2.0,0,1,0.5499031282413332
+694,44,male,single,unskilled employee,< 1 year,own,none,2,< 0 DM,unknown/no savings,4716,6,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.37233694716268456
+695,28,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,2284,24,radio/television,existing credits paid back duly,4.0,0,0,0.1682050413723974
+696,50,male,single,skilled employee,1 - 4 years,rent,none,1,no account,"500 - 1,000 DM",1236,6,car (used),existing credits paid back duly,2.0,0,0,0.07258181389883177
+697,29,male,single,skilled employee,4 - 7 years,own,gurantor,1,0 - 200 DM,< 100 DM,1103,12,radio/television,existing credits paid back duly,4.0,0,0,0.17685700337828877
+698,38,female,non-single/single,unemployed,unemployed,own,none,1,no account,< 100 DM,926,12,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.2850627616750665
+699,24,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1800,18,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.11207953377737313
+700,40,male,single,highly skilled employee,> 7 years,rent,none,1,>= 200 DM,< 100 DM,1905,15,education,existing credits paid back duly,4.0,0,1,0.7680694248140323
+701,29,female,non-single/single,unskilled employee,1 - 4 years,rent,none,1,no account,"500 - 1,000 DM",1123,12,furniture/equipment,existing credits paid back duly,4.0,1,0,0.255653389161754
+702,46,male,single,skilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,6331,48,car (used),critical account/other credits existing (outside this bank),4.0,1,1,0.6462127323331729
+703,47,female,non-single/single,skilled employee,> 7 years,for free,none,1,>= 200 DM,100 - 500 DM,1377,24,radio/television,existing credits paid back duly,4.0,0,1,0.5361857271309096
+704,41,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,100 - 500 DM,2503,30,business,delay paying off in the past,4.0,0,1,0.5779780391373701
+705,32,female,non-single/single,skilled employee,< 1 year,own,none,2,0 - 200 DM,< 100 DM,2528,27,business,existing credits paid back duly,4.0,0,1,0.7432778639507346
+706,35,female,non-single/single,skilled employee,> 7 years,for free,none,1,no account,"500 - 1,000 DM",5324,15,car (new),existing credits paid back duly,1.0,0,0,0.4139440279528365
+707,24,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,100 - 500 DM,6560,48,car (new),existing credits paid back duly,3.0,1,1,0.7536011794843375
+708,25,female,non-single/single,skilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,2969,12,furniture/equipment,no credits/paid back duly,4.0,1,1,0.8685618231558825
+709,25,female,non-single/single,skilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1206,9,radio/television,existing credits paid back duly,4.0,0,0,0.46510002530850353
+710,37,male,single,unskilled employee,1 - 4 years,own,none,2,0 - 200 DM,< 100 DM,2118,9,radio/television,existing credits paid back duly,2.0,0,0,0.3481433835739987
+711,32,male,single,highly skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",629,18,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.07968429964692617
+712,35,female,non-single/single,skilled employee,> 7 years,for free,none,1,< 0 DM,< 100 DM,1198,6,education,all credits at this bank paid back duly,4.0,1,1,0.8923643068552346
+713,46,male,single,highly skilled employee,> 7 years,own,none,1,no account,unknown/no savings,2476,21,car (used),existing credits paid back duly,4.0,0,0,0.06942817720250809
+714,25,male,single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1138,9,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.2863745517244986
+715,27,male,single,highly skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,14027,60,car (new),existing credits paid back duly,4.0,1,1,0.90311111718957
+716,63,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,7596,30,car (used),critical account/other credits existing (outside this bank),1.0,0,0,0.07001729959465033
+717,40,male,single,skilled employee,> 7 years,own,none,2,no account,unknown/no savings,3077,30,radio/television,critical account/other credits existing (outside this bank),3.0,0,0,0.09866097654073913
+718,32,male,single,highly skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,1505,18,radio/television,existing credits paid back duly,4.0,0,0,0.22961067196503587
+719,31,male,single,skilled employee,1 - 4 years,own,none,1,>= 200 DM,unknown/no savings,3148,24,radio/television,critical account/other credits existing (outside this bank),3.0,0,0,0.14837601945341972
+720,31,male,married/widowed,skilled employee,> 7 years,own,none,1,0 - 200 DM,100 - 500 DM,6148,20,car (used),no credits/paid back duly,3.0,0,1,0.6056483024932677
+721,34,male,single,highly skilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,1337,9,radio/television,no credits/paid back duly,4.0,1,1,0.5714145569206277
+722,24,female,non-single/single,skilled employee,< 1 year,rent,none,2,0 - 200 DM,"> 1,000 DM",433,6,education,all credits at this bank paid back duly,4.0,1,1,0.7457288262060638
+723,24,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1228,12,car (new),existing credits paid back duly,4.0,1,1,0.7098995609516453
+724,66,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,"500 - 1,000 DM",790,9,radio/television,existing credits paid back duly,4.0,0,0,0.3220902191095781
+725,21,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,no account,< 100 DM,2570,27,car (new),existing credits paid back duly,3.0,1,1,0.613973345312429
+726,41,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",250,6,car (new),critical account/other credits existing (outside this bank),2.0,0,0,0.06504012753306829
+727,47,male,married/widowed,unskilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",1316,15,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.08721043795834871
+728,25,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,1882,18,radio/television,existing credits paid back duly,4.0,1,1,0.7238444873875337
+729,59,female,non-single/single,skilled employee,> 7 years,rent,none,1,0 - 200 DM,< 100 DM,6416,48,business,all credits at this bank paid back duly,4.0,1,1,0.9326109623467345
+730,36,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,>= 200 DM,"> 1,000 DM",1275,24,business,critical account/other credits existing (outside this bank),2.0,0,0,0.16646185490136872
+731,33,male,single,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,6403,24,radio/television,delay paying off in the past,1.0,0,1,0.6702843651613382
+732,21,male,single,unskilled employee,1 - 4 years,rent,none,2,< 0 DM,< 100 DM,1987,24,radio/television,existing credits paid back duly,2.0,1,1,0.687942690207498
+733,44,female,non-single/single,unskilled employee,4 - 7 years,own,gurantor,1,0 - 200 DM,< 100 DM,760,8,radio/television,existing credits paid back duly,4.0,0,0,0.2135964832367337
+734,28,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,no account,"> 1,000 DM",2603,24,car (used),existing credits paid back duly,2.0,0,0,0.11351461244825552
+735,37,female,non-single/single,skilled employee,4 - 7 years,own,none,2,no account,< 100 DM,3380,4,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.1352281779445472
+736,29,female,non-single/single,unemployed,< 1 year,own,none,1,0 - 200 DM,unknown/no savings,3990,36,domestic appliance,all credits at this bank paid back duly,3.0,0,1,0.7325560855254751
+737,23,female,non-single/single,highly skilled employee,1 - 4 years,rent,none,1,0 - 200 DM,< 100 DM,11560,24,car (used),existing credits paid back duly,1.0,1,1,0.6718016439711569
+738,35,male,single,unskilled employee,1 - 4 years,own,none,2,< 0 DM,100 - 500 DM,4380,18,car (new),existing credits paid back duly,3.0,0,1,0.6625103399849623
+739,45,male,single,highly skilled employee,4 - 7 years,own,none,2,no account,< 100 DM,6761,6,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.12054426405269777
+740,26,female,non-single/single,unskilled employee,1 - 4 years,rent,none,1,0 - 200 DM,100 - 500 DM,4280,30,business,no credits/paid back duly,4.0,1,1,0.8696671123598677
+741,32,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,100 - 500 DM,2325,24,car (new),all credits at this bank paid back duly,2.0,0,1,0.6817406335459592
+742,23,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1048,10,radio/television,all credits at this bank paid back duly,4.0,0,0,0.4357898860920538
+743,41,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,3160,21,radio/television,existing credits paid back duly,4.0,0,0,0.1282360292299169
+744,22,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,"500 - 1,000 DM",2483,24,furniture/equipment,all credits at this bank paid back duly,4.0,0,1,0.6283613758345926
+745,30,male,single,highly skilled employee,4 - 7 years,own,none,1,< 0 DM,unknown/no savings,14179,39,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.4946490393040175
+746,28,male,single,unskilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,1797,13,business,critical account/other credits existing (outside this bank),3.0,0,0,0.4650786449272848
+747,23,female,non-single/single,skilled employee,unemployed,rent,none,1,< 0 DM,< 100 DM,2511,15,car (new),existing credits paid back duly,1.0,0,1,0.8709838604305181
+748,37,female,non-single/single,unskilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,1274,12,car (new),existing credits paid back duly,3.0,1,1,0.7926326798173938
+749,26,male,single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,5248,21,car (used),existing credits paid back duly,1.0,0,0,0.07116011029396678
+750,33,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,3029,15,car (used),existing credits paid back duly,2.0,0,0,0.07363063110473606
+751,49,female,non-single/single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,428,6,furniture/equipment,existing credits paid back duly,2.0,0,1,0.5789982237279152
+752,23,female,non-single/single,unskilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,976,18,car (new),existing credits paid back duly,1.0,1,1,0.8247929975807146
+753,23,female,non-single/single,unskilled employee,4 - 7 years,rent,none,1,0 - 200 DM,100 - 500 DM,841,12,business,existing credits paid back duly,2.0,0,0,0.444989502191645
+754,25,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,5771,30,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.19895854353352474
+755,55,male,single,skilled employee,> 7 years,for free,none,2,no account,"> 1,000 DM",1555,12,repairs,delay paying off in the past,4.0,1,0,0.20016901632354525
+756,32,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,< 0 DM,unknown/no savings,1285,24,car (new),existing credits paid back duly,4.0,1,1,0.6441105697450673
+757,74,male,single,unemployed,1 - 4 years,own,none,2,>= 200 DM,< 100 DM,1299,6,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.25487291896945447
+758,39,male,single,skilled employee,1 - 4 years,for free,none,1,>= 200 DM,unknown/no savings,1271,15,radio/television,critical account/other credits existing (outside this bank),3.0,1,0,0.1246871219464167
+759,31,male,single,skilled employee,1 - 4 years,own,gurantor,1,no account,< 100 DM,1393,24,car (new),existing credits paid back duly,2.0,0,0,0.24326848582126898
+760,35,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,691,12,car (new),critical account/other credits existing (outside this bank),4.0,1,0,0.4912417522387774
+761,59,female,non-single/single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,5045,15,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.1678675849738589
+762,24,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,2124,18,furniture/equipment,critical account/other credits existing (outside this bank),4.0,1,1,0.6375069627102784
+763,24,male,single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,2214,12,radio/television,existing credits paid back duly,4.0,0,0,0.47305466533696516
+764,30,male,single,highly skilled employee,> 7 years,for free,none,1,no account,unknown/no savings,12680,21,car (new),critical account/other credits existing (outside this bank),4.0,1,0,0.25239003916682995
+765,27,male,married/widowed,skilled employee,4 - 7 years,own,none,1,no account,100 - 500 DM,2463,24,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.18535335385522908
+766,40,male,married/widowed,unskilled employee,> 7 years,own,gurantor,1,0 - 200 DM,< 100 DM,1155,12,radio/television,existing credits paid back duly,3.0,0,0,0.3362765191264639
+767,31,male,divorved/separated,unskilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,3108,30,furniture/equipment,existing credits paid back duly,2.0,1,1,0.8450032424731085
+768,31,female,non-single/single,skilled employee,< 1 year,rent,none,1,no account,unknown/no savings,2901,10,car (used),existing credits paid back duly,1.0,0,0,0.14041958377456185
+769,28,male,single,skilled employee,> 7 years,rent,none,1,0 - 200 DM,< 100 DM,3617,12,furniture/equipment,critical account/other credits existing (outside this bank),1.0,0,0,0.43935184070618183
+770,63,male,single,unskilled employee,> 7 years,own,none,1,no account,< 100 DM,1655,12,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.10265079287826033
+771,26,female,non-single/single,skilled employee,> 7 years,rent,none,1,< 0 DM,unknown/no savings,2812,24,car (used),existing credits paid back duly,2.0,0,0,0.4840606225285815
+772,25,female,non-single/single,highly skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,8065,36,education,critical account/other credits existing (outside this bank),3.0,1,1,0.9037582046010768
+773,36,male,single,highly skilled employee,> 7 years,own,none,1,no account,< 100 DM,3275,21,car (used),critical account/other credits existing (outside this bank),1.0,0,0,0.08521894120128691
+774,52,male,single,skilled employee,> 7 years,own,none,1,no account,100 - 500 DM,2223,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.12908554905752442
+775,66,male,single,unemployed,unemployed,for free,none,1,>= 200 DM,"500 - 1,000 DM",1480,12,car (new),critical account/other credits existing (outside this bank),2.0,0,0,0.3391849053392816
+776,25,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,unknown/no savings,1371,24,car (new),existing credits paid back duly,4.0,1,1,0.7330978578532622
+777,37,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,3535,36,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.2597158080934111
+778,25,female,non-single/single,skilled employee,4 - 7 years,own,gurantor,1,< 0 DM,< 100 DM,3509,18,radio/television,existing credits paid back duly,4.0,0,0,0.40966269518864723
+779,38,male,single,highly skilled employee,> 7 years,own,none,1,no account,"> 1,000 DM",5711,36,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.05838283851228424
+780,67,female,non-single/single,skilled employee,unemployed,own,none,1,0 - 200 DM,< 100 DM,3872,18,repairs,existing credits paid back duly,2.0,0,1,0.8225772426265033
+781,25,male,single,skilled employee,4 - 7 years,own,gurantor,1,0 - 200 DM,< 100 DM,4933,39,radio/television,critical account/other credits existing (outside this bank),2.0,1,0,0.28353322614334214
+782,60,male,single,skilled employee,> 7 years,own,none,1,no account,"> 1,000 DM",1940,24,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.10353850646861269
+783,31,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,1410,12,retraining,no credits/paid back duly,2.0,0,0,0.48509142785682513
+784,23,female,non-single/single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,836,12,car (new),existing credits paid back duly,4.0,1,1,0.6656761167861661
+785,60,male,divorved/separated,highly skilled employee,unemployed,own,none,1,0 - 200 DM,unknown/no savings,6468,20,car (used),existing credits paid back duly,1.0,0,0,0.34965449831322404
+786,35,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,"> 1,000 DM",1941,18,business,existing credits paid back duly,4.0,0,0,0.2188687933042188
+787,40,male,single,skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",2675,22,radio/television,existing credits paid back duly,3.0,0,0,0.17551184241118517
+788,38,male,single,skilled employee,> 7 years,own,none,2,no account,unknown/no savings,2751,48,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.10039340322082471
+789,50,male,single,skilled employee,> 7 years,for free,none,1,0 - 200 DM,< 100 DM,6224,48,education,delay paying off in the past,4.0,1,1,0.9462402915429998
+790,27,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,5998,40,education,critical account/other credits existing (outside this bank),4.0,1,1,0.8657844465052654
+791,39,female,non-single/single,skilled employee,> 7 years,own,none,2,0 - 200 DM,< 100 DM,1188,21,business,existing credits paid back duly,2.0,1,1,0.6109702708900236
+792,41,male,single,highly skilled employee,> 7 years,own,none,2,no account,unknown/no savings,6313,24,car (used),existing credits paid back duly,3.0,0,0,0.09466304635813877
+793,27,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,1221,6,furniture/equipment,critical account/other credits existing (outside this bank),1.0,0,0,0.05537600809916872
+794,51,male,divorved/separated,skilled employee,> 7 years,for free,none,1,>= 200 DM,< 100 DM,2892,24,furniture/equipment,existing credits paid back duly,3.0,0,1,0.6649388096811997
+795,32,male,single,skilled employee,> 7 years,rent,none,1,no account,"500 - 1,000 DM",3062,24,furniture/equipment,existing credits paid back duly,4.0,0,0,0.3158603722244075
+796,22,female,non-single/single,skilled employee,< 1 year,rent,none,1,no account,100 - 500 DM,2301,9,furniture/equipment,existing credits paid back duly,2.0,0,0,0.3891702433361272
+797,51,male,single,skilled employee,> 7 years,for free,none,2,< 0 DM,unknown/no savings,7511,18,car (used),existing credits paid back duly,1.0,1,0,0.3469523426965339
+798,22,female,non-single/single,unskilled employee,< 1 year,rent,none,1,no account,< 100 DM,1258,12,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.30946994935759997
+799,54,male,married/widowed,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,717,24,car (new),delay paying off in the past,4.0,0,0,0.28777531785062876
+800,35,male,single,unemployed,< 1 year,own,none,1,0 - 200 DM,unknown/no savings,1549,9,car (new),existing credits paid back duly,4.0,0,0,0.40943869565128066
+801,54,male,single,skilled employee,> 7 years,for free,none,2,no account,< 100 DM,1597,24,education,critical account/other credits existing (outside this bank),4.0,0,0,0.46343292112484197
+802,48,female,non-single/single,unskilled employee,> 7 years,rent,gurantor,1,0 - 200 DM,< 100 DM,1795,18,radio/television,critical account/other credits existing (outside this bank),3.0,0,0,0.38042799404815075
+803,24,female,non-single/single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,4272,20,furniture/equipment,critical account/other credits existing (outside this bank),1.0,0,1,0.6085346318215246
+804,35,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,976,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.04686732044464422
+805,24,female,non-single/single,unemployed,unemployed,rent,none,1,0 - 200 DM,unknown/no savings,7472,12,car (new),existing credits paid back duly,1.0,0,1,0.707210698645931
+806,24,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,9271,36,car (new),existing credits paid back duly,2.0,1,1,0.8102569942405893
+807,26,male,married/widowed,unskilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,590,6,radio/television,existing credits paid back duly,3.0,0,0,0.4801705085578803
+808,65,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,930,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.0467471581381693
+809,55,male,single,highly skilled employee,unemployed,for free,none,1,0 - 200 DM,< 100 DM,9283,42,car (used),all credits at this bank paid back duly,1.0,0,1,0.802621377091095
+810,26,female,non-single/single,unemployed,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,1778,15,car (new),no credits/paid back duly,2.0,1,1,0.9145802826919225
+811,26,male,married/widowed,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,907,8,business,existing credits paid back duly,3.0,0,1,0.5387309261654636
+812,28,male,married/widowed,unskilled employee,4 - 7 years,own,gurantor,1,0 - 200 DM,< 100 DM,484,6,radio/television,existing credits paid back duly,3.0,0,0,0.18349171462985647
+813,24,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,9629,36,car (used),critical account/other credits existing (outside this bank),4.0,1,0,0.38912314665319303
+814,54,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,3051,48,domestic appliance,existing credits paid back duly,3.0,1,1,0.79694490576296
+815,46,male,single,skilled employee,4 - 7 years,for free,none,2,< 0 DM,< 100 DM,3931,48,car (new),existing credits paid back duly,4.0,1,1,0.8626706680861237
+816,54,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,0 - 200 DM,< 100 DM,7432,36,car (new),delay paying off in the past,2.0,0,1,0.9087648041551967
+817,62,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,no account,"500 - 1,000 DM",1338,6,domestic appliance,existing credits paid back duly,1.0,0,0,0.1327918612625468
+818,24,female,non-single/single,skilled employee,4 - 7 years,rent,none,1,no account,< 100 DM,1554,6,radio/television,critical account/other credits existing (outside this bank),1.0,0,0,0.11081113568874061
+819,43,male,divorved/separated,highly skilled employee,unemployed,own,co-applicant,1,< 0 DM,< 100 DM,15857,36,other,existing credits paid back duly,2.0,0,1,0.8818043115899536
+820,26,male,married/widowed,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1345,18,radio/television,existing credits paid back duly,4.0,1,1,0.5923974084634919
+821,27,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1101,12,car (new),existing credits paid back duly,3.0,0,0,0.32199719113197317
+822,24,male,married/widowed,skilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,3016,12,radio/television,existing credits paid back duly,3.0,0,0,0.38560215564797995
+823,41,male,single,skilled employee,> 7 years,own,none,2,< 0 DM,< 100 DM,2712,36,furniture/equipment,existing credits paid back duly,2.0,1,1,0.76424954673274
+824,47,male,single,unskilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,731,8,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.4543300571176609
+825,35,male,divorved/separated,highly skilled employee,< 1 year,own,none,1,no account,< 100 DM,3780,18,furniture/equipment,critical account/other credits existing (outside this bank),3.0,0,0,0.2932817617383644
+826,30,male,married/widowed,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,1602,21,car (new),critical account/other credits existing (outside this bank),4.0,0,1,0.6601185884332011
+827,33,female,non-single/single,skilled employee,> 7 years,rent,none,1,< 0 DM,< 100 DM,3966,18,car (new),critical account/other credits existing (outside this bank),1.0,1,1,0.7768922248107615
+828,36,male,single,skilled employee,1 - 4 years,own,none,2,no account,< 100 DM,4165,18,business,no credits/paid back duly,2.0,1,0,0.4175463754290995
+829,47,male,single,skilled employee,> 7 years,for free,none,1,< 0 DM,unknown/no savings,8335,36,car (used),existing credits paid back duly,3.0,1,1,0.5232363012503305
+830,38,male,single,skilled employee,1 - 4 years,for free,none,2,0 - 200 DM,unknown/no savings,6681,48,business,delay paying off in the past,4.0,0,1,0.683260443319444
+831,44,male,single,skilled employee,1 - 4 years,own,none,2,no account,"500 - 1,000 DM",2375,24,business,delay paying off in the past,4.0,0,0,0.19683129381624676
+832,23,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,1216,18,car (new),existing credits paid back duly,4.0,1,1,0.8832345797234993
+833,29,male,single,skilled employee,> 7 years,rent,none,1,< 0 DM,< 100 DM,11816,45,business,no credits/paid back duly,2.0,1,1,0.9630642631338202
+834,42,female,non-single/single,skilled employee,> 7 years,own,none,1,0 - 200 DM,unknown/no savings,5084,24,radio/television,existing credits paid back duly,2.0,0,0,0.46182858455048315
+835,25,female,non-single/single,unskilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,2327,15,radio/television,existing credits paid back duly,2.0,1,1,0.5369457330020022
+836,48,male,single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1082,12,car (new),no credits/paid back duly,4.0,1,1,0.787450735952831
+837,21,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,886,12,radio/television,existing credits paid back duly,4.0,0,0,0.10724362481585561
+838,23,female,non-single/single,unskilled employee,< 1 year,rent,none,2,no account,< 100 DM,601,4,furniture/equipment,existing credits paid back duly,1.0,0,0,0.37454796626232395
+839,63,male,single,skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,2957,24,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.321864311106484
+840,46,male,married/widowed,skilled employee,> 7 years,own,co-applicant,1,no account,< 100 DM,2611,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.27113970222226647
+841,29,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,5179,36,furniture/equipment,existing credits paid back duly,4.0,1,1,0.6840947414066599
+842,28,male,single,unskilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2993,21,car (used),delay paying off in the past,3.0,0,0,0.13963781674705855
+843,23,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,< 100 DM,1943,18,repairs,existing credits paid back duly,4.0,1,1,0.5901280696128276
+844,50,male,single,skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1559,24,business,all credits at this bank paid back duly,4.0,0,0,0.24859929906781847
+845,47,male,single,skilled employee,> 7 years,own,none,2,no account,< 100 DM,3422,18,furniture/equipment,existing credits paid back duly,4.0,0,0,0.27021518427639746
+846,35,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,unknown/no savings,3976,21,furniture/equipment,existing credits paid back duly,2.0,0,0,0.25587165545710033
+847,68,male,single,skilled employee,1 - 4 years,rent,none,1,no account,unknown/no savings,6761,18,car (new),existing credits paid back duly,2.0,1,0,0.3017992583074881
+848,28,male,married/widowed,skilled employee,< 1 year,own,none,1,no account,< 100 DM,1249,24,car (new),existing credits paid back duly,4.0,0,1,0.5396223605937974
+849,59,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,1364,9,radio/television,existing credits paid back duly,3.0,0,0,0.3356733108797265
+850,57,male,single,unskilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,709,12,radio/television,existing credits paid back duly,4.0,1,0,0.4849527401857279
+851,33,male,married/widowed,skilled employee,1 - 4 years,rent,gurantor,1,< 0 DM,< 100 DM,2235,20,car (new),critical account/other credits existing (outside this bank),4.0,1,1,0.607248764241924
+852,43,male,single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,4042,24,car (used),critical account/other credits existing (outside this bank),3.0,0,0,0.02743399206061426
+853,35,male,single,skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,1471,15,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.12404449367826427
+854,32,male,single,unskilled employee,4 - 7 years,for free,none,2,< 0 DM,< 100 DM,1442,18,car (new),all credits at this bank paid back duly,4.0,1,1,0.7225552995914281
+855,45,male,single,skilled employee,> 7 years,own,none,2,no account,< 100 DM,10875,36,car (new),delay paying off in the past,2.0,0,1,0.6542269379102812
+856,33,male,married/widowed,skilled employee,< 1 year,own,none,1,no account,100 - 500 DM,1474,24,car (new),existing credits paid back duly,4.0,0,0,0.4865774504292506
+857,40,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,894,10,retraining,existing credits paid back duly,4.0,0,0,0.050295914328760634
+858,28,male,single,skilled employee,1 - 4 years,for free,none,1,no account,< 100 DM,3343,15,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.16396856261290574
+859,29,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,3959,15,car (new),existing credits paid back duly,3.0,1,1,0.7627225956625153
+860,26,male,single,skilled employee,1 - 4 years,rent,gurantor,2,no account,100 - 500 DM,3577,9,car (new),existing credits paid back duly,1.0,0,0,0.2080330558628265
+861,27,male,single,skilled employee,1 - 4 years,own,none,1,no account,"> 1,000 DM",5804,24,car (used),critical account/other credits existing (outside this bank),4.0,0,0,0.03349101738384828
+862,28,male,married/widowed,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2169,18,business,delay paying off in the past,4.0,1,0,0.29050932358901393
+863,35,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,2439,24,radio/television,existing credits paid back duly,4.0,1,1,0.7694198722539068
+864,32,male,single,unskilled employee,< 1 year,own,none,2,no account,"> 1,000 DM",4526,27,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.11647997229957473
+865,25,male,single,unskilled employee,1 - 4 years,rent,none,1,no account,< 100 DM,2210,10,furniture/equipment,existing credits paid back duly,2.0,1,0,0.26094358977784227
+866,20,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,no account,"500 - 1,000 DM",2221,15,furniture/equipment,existing credits paid back duly,2.0,0,0,0.2907950139067042
+867,27,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,2389,18,radio/television,existing credits paid back duly,4.0,0,1,0.7263868267644937
+868,42,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,3331,12,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.1354151409210073
+869,37,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,7409,36,business,existing credits paid back duly,3.0,0,0,0.2763324434567748
+870,24,female,non-single/single,skilled employee,> 7 years,rent,none,1,< 0 DM,< 100 DM,652,12,furniture/equipment,existing credits paid back duly,4.0,0,1,0.7345299494776822
+871,40,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,"500 - 1,000 DM",7678,36,furniture/equipment,delay paying off in the past,2.0,0,0,0.35983511176103283
+872,46,male,single,skilled employee,> 7 years,own,none,2,>= 200 DM,< 100 DM,1343,6,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.2820290116610131
+873,26,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,100 - 500 DM,1382,24,business,critical account/other credits existing (outside this bank),4.0,0,0,0.3033413242571151
+874,24,female,non-single/single,skilled employee,< 1 year,own,none,1,no account,unknown/no savings,874,15,domestic appliance,existing credits paid back duly,4.0,0,0,0.18361641055909556
+875,29,male,single,unskilled employee,1 - 4 years,own,co-applicant,2,< 0 DM,< 100 DM,3590,12,furniture/equipment,existing credits paid back duly,2.0,0,1,0.6349834018912663
+876,40,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,"> 1,000 DM",1322,11,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.2173023331062317
+877,36,male,single,highly skilled employee,< 1 year,for free,co-applicant,1,< 0 DM,< 100 DM,1940,18,radio/television,all credits at this bank paid back duly,3.0,0,1,0.8250714236663862
+878,28,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,3595,36,radio/television,existing credits paid back duly,4.0,0,0,0.3723258406908808
+879,27,male,single,highly skilled employee,< 1 year,for free,none,1,< 0 DM,< 100 DM,1422,9,car (new),existing credits paid back duly,3.0,1,1,0.7462686103485514
+880,36,male,single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,6742,30,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.07272822553002697
+881,38,male,single,highly skilled employee,4 - 7 years,own,none,1,no account,< 100 DM,7814,24,car (used),existing credits paid back duly,3.0,0,0,0.1285947413125078
+882,48,male,divorved/separated,skilled employee,1 - 4 years,for free,none,1,no account,unknown/no savings,9277,24,car (used),existing credits paid back duly,2.0,0,0,0.17390262708391419
+883,36,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,unknown/no savings,2181,30,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.3832049372285284
+884,65,female,non-single/single,unemployed,unemployed,own,none,1,no account,< 100 DM,1098,18,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.2076420435556287
+885,43,male,divorved/separated,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,4057,24,furniture/equipment,existing credits paid back duly,3.0,1,1,0.5669782963125044
+886,53,female,non-single/single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,795,12,education,existing credits paid back duly,4.0,1,1,0.8790702875749781
+887,34,male,single,skilled employee,4 - 7 years,own,none,2,0 - 200 DM,unknown/no savings,2825,24,business,critical account/other credits existing (outside this bank),4.0,0,0,0.15101647771781151
+888,23,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,15672,48,business,existing credits paid back duly,2.0,1,1,0.8550136805488098
+889,34,male,single,highly skilled employee,> 7 years,own,none,1,no account,< 100 DM,6614,36,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.4208539343326665
+890,40,male,single,skilled employee,< 1 year,rent,gurantor,2,no account,unknown/no savings,7824,28,car (used),all credits at this bank paid back duly,3.0,0,0,0.19634870971138627
+891,43,male,single,highly skilled employee,> 7 years,own,none,2,< 0 DM,< 100 DM,2442,27,business,critical account/other credits existing (outside this bank),4.0,0,1,0.5292419466855518
+892,46,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,1829,15,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.1145532073358582
+893,38,male,single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,2171,12,car (new),critical account/other credits existing (outside this bank),4.0,0,0,0.4789676853512541
+894,34,male,single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,5800,36,car (used),critical account/other credits existing (outside this bank),3.0,0,0,0.3398635002868712
+895,29,male,single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,1169,18,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.05160344202653469
+896,31,male,single,highly skilled employee,4 - 7 years,own,none,2,no account,unknown/no savings,8947,36,car (used),delay paying off in the past,3.0,0,0,0.10697474578020838
+897,28,female,non-single/single,highly skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,2606,21,radio/television,existing credits paid back duly,4.0,0,1,0.8266619489080981
+898,35,female,non-single/single,skilled employee,4 - 7 years,own,none,1,no account,"> 1,000 DM",1592,12,furniture/equipment,critical account/other credits existing (outside this bank),3.0,0,0,0.038689072962292514
+899,33,female,non-single/single,unskilled employee,4 - 7 years,rent,none,1,no account,unknown/no savings,2186,15,furniture/equipment,existing credits paid back duly,1.0,0,0,0.15895167457097778
+900,42,male,single,skilled employee,1 - 4 years,own,co-applicant,1,< 0 DM,< 100 DM,4153,18,furniture/equipment,existing credits paid back duly,2.0,1,1,0.6926127146473573
+901,43,male,single,skilled employee,> 7 years,rent,gurantor,1,< 0 DM,< 100 DM,2625,16,car (new),critical account/other credits existing (outside this bank),2.0,1,1,0.5341936994433284
+902,44,male,divorved/separated,skilled employee,< 1 year,own,none,1,no account,unknown/no savings,3485,20,car (new),critical account/other credits existing (outside this bank),2.0,0,0,0.23385983568243376
+903,42,male,single,skilled employee,> 7 years,for free,none,1,no account,unknown/no savings,10477,36,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.12511396224342705
+904,40,male,married/widowed,skilled employee,1 - 4 years,rent,none,1,no account,unknown/no savings,1386,15,radio/television,existing credits paid back duly,4.0,0,0,0.1659045175412115
+905,36,male,single,highly skilled employee,> 7 years,own,none,1,no account,< 100 DM,1278,24,radio/television,existing credits paid back duly,4.0,0,0,0.24798347084216465
+906,20,male,single,highly skilled employee,1 - 4 years,rent,none,2,< 0 DM,< 100 DM,1107,12,radio/television,existing credits paid back duly,2.0,0,1,0.571386105130539
+907,24,male,single,unskilled employee,4 - 7 years,own,co-applicant,1,< 0 DM,unknown/no savings,3763,21,car (new),existing credits paid back duly,2.0,0,1,0.5312511558827223
+908,27,male,married/widowed,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,3711,36,education,existing credits paid back duly,2.0,0,1,0.7876137929489985
+909,46,female,non-single/single,unskilled employee,< 1 year,own,none,1,no account,< 100 DM,3594,15,car (used),delay paying off in the past,1.0,0,0,0.2385594330545988
+910,33,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,3195,9,car (new),existing credits paid back duly,1.0,0,0,0.42355198426834056
+911,34,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,4454,36,radio/television,delay paying off in the past,4.0,0,0,0.4688890274718028
+912,25,female,non-single/single,unskilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,4736,24,furniture/equipment,critical account/other credits existing (outside this bank),2.0,1,1,0.6284262950996684
+913,25,female,non-single/single,skilled employee,> 7 years,own,none,1,0 - 200 DM,unknown/no savings,2991,30,radio/television,existing credits paid back duly,2.0,0,0,0.48755705469455624
+914,28,male,divorved/separated,skilled employee,> 7 years,own,none,1,no account,"> 1,000 DM",2142,11,business,existing credits paid back duly,1.0,0,0,0.10848171484700952
+915,31,male,single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,3161,24,business,all credits at this bank paid back duly,4.0,1,1,0.8012313437418546
+916,32,female,non-single/single,highly skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,18424,48,other,no credits/paid back duly,1.0,1,1,0.9086653463347416
+917,32,male,single,skilled employee,1 - 4 years,own,co-applicant,2,no account,100 - 500 DM,2848,10,car (used),existing credits paid back duly,1.0,0,0,0.1015958142986996
+918,68,male,single,highly skilled employee,> 7 years,own,none,1,< 0 DM,< 100 DM,14896,6,car (new),existing credits paid back duly,1.0,1,1,0.7685612617267035
+919,33,male,divorved/separated,skilled employee,unemployed,own,none,1,< 0 DM,100 - 500 DM,2359,24,furniture/equipment,existing credits paid back duly,1.0,1,1,0.7547214247809927
+920,39,male,single,highly skilled employee,> 7 years,rent,none,1,< 0 DM,< 100 DM,3345,24,furniture/equipment,existing credits paid back duly,4.0,1,1,0.7723981825762389
+921,28,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1817,18,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,0,0.1903692366428886
+922,37,male,single,highly skilled employee,4 - 7 years,own,none,1,no account,"500 - 1,000 DM",12749,48,radio/television,delay paying off in the past,4.0,0,0,0.3896561459825533
+923,22,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,1366,9,radio/television,existing credits paid back duly,3.0,1,1,0.7384763929592872
+924,30,male,single,skilled employee,4 - 7 years,rent,none,2,0 - 200 DM,< 100 DM,2002,12,car (new),existing credits paid back duly,3.0,0,1,0.5454969018794609
+925,55,male,divorved/separated,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,6872,24,furniture/equipment,all credits at this bank paid back duly,2.0,1,1,0.8893911093219398
+926,46,male,single,skilled employee,< 1 year,own,none,1,< 0 DM,< 100 DM,697,12,car (new),all credits at this bank paid back duly,4.0,1,1,0.7851724065703194
+927,21,female,non-single/single,skilled employee,< 1 year,rent,none,1,< 0 DM,< 100 DM,1049,18,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,1,0.7200881292101832
+928,39,male,single,skilled employee,4 - 7 years,for free,none,2,< 0 DM,< 100 DM,10297,48,car (used),existing credits paid back duly,4.0,1,1,0.7142330295171683
+929,58,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,1867,30,radio/television,existing credits paid back duly,4.0,0,0,0.16060490357509516
+930,43,male,single,unskilled employee,1 - 4 years,own,none,2,< 0 DM,< 100 DM,1344,12,car (new),delay paying off in the past,4.0,0,1,0.6398852308751675
+931,24,male,single,unskilled employee,< 1 year,own,co-applicant,1,< 0 DM,< 100 DM,1747,24,furniture/equipment,existing credits paid back duly,4.0,0,1,0.7925749051710614
+932,22,female,non-single/single,skilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,1670,9,radio/television,existing credits paid back duly,4.0,1,1,0.5485524261157549
+933,30,male,single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,1224,9,car (new),critical account/other credits existing (outside this bank),3.0,0,0,0.14350400824434206
+934,42,male,single,skilled employee,> 7 years,own,none,2,no account,"500 - 1,000 DM",522,12,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.06424483745158449
+935,23,female,non-single/single,skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,1498,12,radio/television,existing credits paid back duly,4.0,0,1,0.5634506309680266
+936,30,male,single,highly skilled employee,< 1 year,own,none,1,0 - 200 DM,100 - 500 DM,1919,30,radio/television,delay paying off in the past,4.0,1,1,0.6099218961495989
+937,28,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,>= 200 DM,< 100 DM,745,9,radio/television,existing credits paid back duly,3.0,1,0,0.3512399196005796
+938,30,male,married/widowed,highly skilled employee,< 1 year,rent,none,1,0 - 200 DM,< 100 DM,2063,6,radio/television,existing credits paid back duly,4.0,0,1,0.6146948764086261
+939,42,male,single,skilled employee,1 - 4 years,for free,none,1,0 - 200 DM,< 100 DM,6288,60,education,existing credits paid back duly,4.0,1,1,0.9572726559192247
+940,46,male,single,highly skilled employee,1 - 4 years,own,none,2,no account,unknown/no savings,6842,24,car (used),critical account/other credits existing (outside this bank),2.0,0,0,0.04778371646154901
+941,45,male,single,highly skilled employee,< 1 year,own,none,2,no account,unknown/no savings,3527,12,car (new),existing credits paid back duly,2.0,0,0,0.21912654345374458
+942,31,male,single,unskilled employee,1 - 4 years,own,none,2,no account,< 100 DM,1546,10,car (new),existing credits paid back duly,3.0,0,0,0.24960718265714404
+943,31,male,single,skilled employee,4 - 7 years,own,none,1,no account,unknown/no savings,929,24,furniture/equipment,existing credits paid back duly,4.0,0,0,0.09395934555146102
+944,42,male,single,unskilled employee,4 - 7 years,own,none,2,no account,< 100 DM,1455,4,car (new),critical account/other credits existing (outside this bank),2.0,0,0,0.08523982150505903
+945,46,female,non-single/single,skilled employee,< 1 year,rent,gurantor,1,< 0 DM,< 100 DM,1845,15,furniture/equipment,existing credits paid back duly,4.0,0,1,0.7223246114948269
+946,30,female,non-single/single,skilled employee,< 1 year,own,none,1,0 - 200 DM,"500 - 1,000 DM",8358,48,car (new),no credits/paid back duly,1.0,0,1,0.9566161794074127
+947,30,male,single,skilled employee,< 1 year,for free,none,2,< 0 DM,"500 - 1,000 DM",3349,24,furniture/equipment,all credits at this bank paid back duly,4.0,1,1,0.7801100930861219
+948,38,male,single,highly skilled employee,unemployed,own,none,1,no account,unknown/no savings,2859,12,car (new),existing credits paid back duly,4.0,0,0,0.19995736564887157
+949,43,male,married/widowed,unskilled employee,< 1 year,own,co-applicant,2,no account,< 100 DM,1533,18,furniture/equipment,existing credits paid back duly,4.0,1,0,0.46883033239982425
+950,31,male,single,skilled employee,> 7 years,own,none,1,no account,100 - 500 DM,3621,24,radio/television,existing credits paid back duly,2.0,1,0,0.2318462050761513
+951,40,male,married/widowed,unemployed,unemployed,own,none,2,0 - 200 DM,< 100 DM,3590,18,business,critical account/other credits existing (outside this bank),3.0,0,0,0.49564305116092744
+952,24,male,single,skilled employee,4 - 7 years,own,none,1,< 0 DM,< 100 DM,2145,36,business,delay paying off in the past,2.0,1,1,0.6451726454901194
+953,28,female,non-single/single,skilled employee,< 1 year,rent,none,1,0 - 200 DM,"500 - 1,000 DM",4113,24,car (used),existing credits paid back duly,3.0,1,1,0.5694008783999737
+954,26,female,non-single/single,highly skilled employee,unemployed,own,none,1,no account,< 100 DM,10974,36,furniture/equipment,existing credits paid back duly,4.0,1,1,0.6817100644904993
+955,29,female,non-single/single,skilled employee,1 - 4 years,own,gurantor,1,< 0 DM,< 100 DM,1893,12,car (new),existing credits paid back duly,4.0,0,1,0.5943360114246433
+956,57,female,non-single/single,highly skilled employee,> 7 years,rent,none,1,< 0 DM,"> 1,000 DM",1231,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.38784832706210687
+957,49,male,single,unskilled employee,> 7 years,own,none,1,>= 200 DM,unknown/no savings,3656,30,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.20487249163058105
+958,37,male,single,unskilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1154,9,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.23556350691375713
+959,45,male,single,unskilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,4006,28,car (new),existing credits paid back duly,3.0,1,1,0.7780851869475167
+960,30,male,single,skilled employee,> 7 years,for free,none,1,0 - 200 DM,100 - 500 DM,3069,24,furniture/equipment,existing credits paid back duly,4.0,0,1,0.5905252309899262
+961,30,male,married/widowed,skilled employee,> 7 years,rent,none,1,no account,< 100 DM,1740,6,radio/television,critical account/other credits existing (outside this bank),2.0,0,0,0.16496156973702533
+962,47,male,divorved/separated,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,< 100 DM,2353,21,car (new),delay paying off in the past,1.0,0,1,0.7284187887147692
+963,29,male,single,skilled employee,1 - 4 years,own,none,1,no account,unknown/no savings,3556,15,car (new),existing credits paid back duly,3.0,0,0,0.16805532812767413
+964,35,male,single,skilled employee,> 7 years,own,none,1,no account,"500 - 1,000 DM",2397,24,radio/television,existing credits paid back duly,3.0,1,0,0.18420934463536492
+965,22,male,married/widowed,unskilled employee,< 1 year,own,none,1,0 - 200 DM,< 100 DM,454,6,repairs,existing credits paid back duly,3.0,0,1,0.7028503966139984
+966,26,female,non-single/single,skilled employee,1 - 4 years,own,none,1,0 - 200 DM,unknown/no savings,1715,30,radio/television,existing credits paid back duly,4.0,0,0,0.43529377371793754
+967,23,male,single,unskilled employee,1 - 4 years,own,none,1,0 - 200 DM,"500 - 1,000 DM",2520,27,radio/television,critical account/other credits existing (outside this bank),4.0,1,0,0.26895141641774656
+968,54,female,non-single/single,highly skilled employee,> 7 years,rent,none,1,no account,< 100 DM,3568,15,radio/television,existing credits paid back duly,4.0,0,0,0.38965982073715777
+969,29,male,married/widowed,skilled employee,4 - 7 years,rent,none,1,no account,unknown/no savings,7166,42,radio/television,existing credits paid back duly,2.0,0,0,0.3378724655097691
+970,40,male,single,unskilled employee,1 - 4 years,own,none,2,< 0 DM,< 100 DM,3939,11,car (new),critical account/other credits existing (outside this bank),1.0,0,0,0.49542791477069903
+971,22,male,single,skilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,100 - 500 DM,1514,15,repairs,existing credits paid back duly,4.0,0,0,0.4338377780127863
+972,43,male,single,unskilled employee,1 - 4 years,own,none,2,no account,< 100 DM,7393,24,car (new),existing credits paid back duly,1.0,0,0,0.44234770837098
+973,29,female,non-single/single,unemployed,unemployed,rent,co-applicant,1,< 0 DM,< 100 DM,1193,24,car (new),all credits at this bank paid back duly,1.0,1,1,0.9493096548662737
+974,36,male,single,skilled employee,> 7 years,rent,co-applicant,1,< 0 DM,< 100 DM,7297,60,business,existing credits paid back duly,4.0,1,1,0.9567834267334677
+975,33,female,non-single/single,skilled employee,1 - 4 years,own,none,1,no account,< 100 DM,2831,30,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.23997115913865727
+976,57,female,non-single/single,unskilled employee,1 - 4 years,own,none,1,>= 200 DM,"500 - 1,000 DM",1258,24,radio/television,existing credits paid back duly,3.0,0,0,0.38617869547330785
+977,64,female,non-single/single,skilled employee,1 - 4 years,own,gurantor,1,0 - 200 DM,< 100 DM,753,6,radio/television,existing credits paid back duly,2.0,0,0,0.27549334304736395
+978,42,male,single,skilled employee,> 7 years,own,none,1,0 - 200 DM,unknown/no savings,2427,18,business,delay paying off in the past,4.0,0,0,0.3273211799372117
+979,47,male,single,unskilled employee,> 7 years,own,none,2,no account,< 100 DM,2538,24,car (new),delay paying off in the past,4.0,1,0,0.4250843598959426
+980,25,male,married/widowed,skilled employee,1 - 4 years,rent,none,1,0 - 200 DM,100 - 500 DM,1264,15,car (new),all credits at this bank paid back duly,2.0,1,1,0.7575769574903748
+981,49,male,single,skilled employee,4 - 7 years,own,none,1,0 - 200 DM,< 100 DM,8386,30,furniture/equipment,critical account/other credits existing (outside this bank),2.0,1,0,0.42666829696570396
+982,33,male,single,highly skilled employee,unemployed,rent,none,1,no account,< 100 DM,4844,48,business,existing credits paid back duly,3.0,1,1,0.6972327081867314
+983,28,female,non-single/single,highly skilled employee,1 - 4 years,own,none,1,>= 200 DM,100 - 500 DM,2923,21,car (new),existing credits paid back duly,1.0,0,1,0.5975434557173098
+984,26,male,single,skilled employee,1 - 4 years,own,none,2,< 0 DM,< 100 DM,8229,36,car (used),existing credits paid back duly,2.0,1,1,0.6244420267476611
+985,30,male,single,unskilled employee,4 - 7 years,own,none,1,no account,< 100 DM,2028,24,furniture/equipment,critical account/other credits existing (outside this bank),2.0,0,0,0.11643702935603917
+986,25,female,non-single/single,skilled employee,1 - 4 years,rent,none,1,< 0 DM,< 100 DM,1433,15,furniture/equipment,critical account/other credits existing (outside this bank),4.0,0,1,0.6013830165573156
+987,33,male,divorved/separated,skilled employee,< 1 year,own,none,1,>= 200 DM,< 100 DM,6289,42,business,no credits/paid back duly,2.0,0,1,0.9148872366364885
+988,64,female,non-single/single,skilled employee,unemployed,own,none,1,no account,100 - 500 DM,1409,13,radio/television,existing credits paid back duly,2.0,0,0,0.24870966180921963
+989,29,male,single,highly skilled employee,unemployed,for free,none,1,< 0 DM,< 100 DM,6579,24,car (used),existing credits paid back duly,4.0,0,1,0.6397036133925535
+990,48,male,single,unskilled employee,> 7 years,own,none,1,0 - 200 DM,< 100 DM,1743,24,radio/television,critical account/other credits existing (outside this bank),4.0,0,0,0.3593205754768835
+991,37,male,single,unskilled employee,< 1 year,own,none,2,no account,unknown/no savings,3565,12,education,critical account/other credits existing (outside this bank),2.0,0,0,0.22670542714440503
+992,34,male,single,unskilled employee,> 7 years,own,none,2,no account,100 - 500 DM,1569,15,radio/television,all credits at this bank paid back duly,4.0,0,0,0.22050839852140253
+993,23,male,married/widowed,unskilled employee,4 - 7 years,rent,none,1,< 0 DM,unknown/no savings,1936,18,radio/television,existing credits paid back duly,2.0,0,0,0.41387158714448213
+994,30,male,single,highly skilled employee,unemployed,own,none,1,< 0 DM,< 100 DM,3959,36,furniture/equipment,existing credits paid back duly,4.0,0,1,0.8145617613974476
+995,50,male,single,skilled employee,> 7 years,own,none,1,no account,unknown/no savings,2390,12,car (new),existing credits paid back duly,4.0,0,0,0.1618105632175397
+996,31,female,non-single/single,unskilled employee,4 - 7 years,own,none,1,no account,< 100 DM,1736,12,furniture/equipment,existing credits paid back duly,3.0,0,0,0.18832837239692277
+997,40,male,divorved/separated,highly skilled employee,1 - 4 years,own,none,1,< 0 DM,< 100 DM,3857,30,car (used),existing credits paid back duly,4.0,0,1,0.6086442895865604
+998,38,male,single,skilled employee,> 7 years,own,none,1,no account,< 100 DM,804,12,radio/television,existing credits paid back duly,4.0,0,0,0.1695759638698853
+999,23,male,single,skilled employee,1 - 4 years,for free,none,1,< 0 DM,< 100 DM,1845,45,radio/television,existing credits paid back duly,4.0,1,1,0.7956348878018799
+1000,27,male,single,skilled employee,unemployed,own,none,1,0 - 200 DM,100 - 500 DM,4576,45,car (used),critical account/other credits existing (outside this bank),3.0,0,0,0.4363330642403728

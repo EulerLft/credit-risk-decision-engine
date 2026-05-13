@@ -1,0 +1,13 @@
+# Environments & System
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+.DS_Store
+
+# Data & Database
+*.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
