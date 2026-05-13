@@ -1,2 +1,5 @@
+# Treat all Jupyter Notebooks as Python code
 *.ipynb linguist-language=Python
-scripts/*.sql linguist-documentation=false
+
+# Ensure the SQL folder is explicitly counted as code
+sql/*.sql linguist-detectable=true
