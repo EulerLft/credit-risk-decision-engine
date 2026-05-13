@@ -12,10 +12,10 @@ The project is designed as a modular pipeline to ensure reproducibility and scal
 4. <b>Deployment:</b> A real-time inference tool built with Streamlit for interactive risk assessment. 
 
 ## 📊 Business Intelligence (Tableau)
-To provide stakeholders with a high-level view of the loan portfolio, I developed an interactive Tableau dashboard. This tool allows for the exploration of risk factors across different demographic and financial segments.
-**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/sal.fernandez/viz/CreditRiskAnalysis_17785991409790/CreditRiskAnalysis#1)**
+To provide stakeholders with a high-level view of the loan portfolio, I developed an interactive Tableau dashboard. This tool allows for the exploration of risk factors across different demographic and financial segments. \
+**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/sal.fernandez/viz/CreditRiskAnalysis_17785991409790/CreditRiskAnalysis#1)** \
 
-![Tableau Dashboard](assets/credit_risk_dashboard.png)
+![Tableau Dashboard](assets/dashboard_screenshot.jpg)
 
 ### Key Insights from the Analysis:
 * **Risk Density:** Applicants with "no checking" accounts show a significantly higher density of high-risk labels compared to those with established credit.
@@ -51,7 +51,7 @@ The analysis reveals that Checking Account Status and Credit Duration are the mo
 | v4.0 | Balanced Weights | 0.72 | 0.75 | 0.62 |
 | **v5.0** | **Grid Search Optimized** | **0.80** | **0.82** | **0.71** |
 
-![Confusion Matrix](assets/v5.0_confusion_matrix.png)
+![Confusion Matrix](assets/confusion_matrix_v.5.0.jpg)
 
 ### Phase 1: Baseline Tuning (v1.0 - v3.0)
 The first three versions focused on finding the right level of regularization. While v3.0 achieved the highest overall accuracy, the recall score was only 0.54, meaning the model was still missing nearly half of the high-risk applicants.
@@ -64,13 +64,13 @@ Versions 1.0 through 3.0 focused on finding regularization stability. While accu
 </details>
 
 ### Phase 2: Prioritizing Risk Detection (v4.0)
-By implementing `class_weight='balanced'`, we successfully shifted the model's focus to catching defaults, raising recall to 0.75.
-![v4.0 Balanced Weights](assets/v4_manual_baseline.jpg)
+By implementing `class_weight='balanced'`, we successfully shifted the model's focus to catching defaults, raising recall to 0.75. \
+![v4.0 Balanced Weights](assets/v4.0_manual_baseline.jpg)
 
 
 ### Phase 3: Final Optimization (v5.0)
-Using `GridSearchCV`, we mathematically identified the optimal C-value (0.1) and L1 penalty. This is our production engine.
-![v5.0 Grid Search](assets/v5.0_grid_search_optimized.JPG)
+Using `GridSearchCV`, we mathematically identified the optimal C-value (0.1) and L1 penalty. This is our production engine. \
+![v5.0 Grid Search](assets/v5.0_grid_search_optimized.JPG) \
 ![v5.0 Final Validation](assets/v5.0_manual_result.JPG)
 
 ## Optimization & Methodology
@@ -100,7 +100,7 @@ print(f"Verdict: {result['verdict']} ({result['risk_probability']}%)")`
 To replicate this project locally:
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/yourusername/credit-risk-decision-engine.git](https://github.com/yourusername/credit-risk-decision-engine.git)
+    git clone https://github.com/EulerLft/credit-risk-decision-engine.git
     cd credit-risk-decision-engine
     ```
 
