@@ -46,7 +46,7 @@ The model successfully identifies 82% of all actual "High Risk" cases, providing
 ### Feature Importance
 The analysis reveals that Checking Account Status and Credit Duration are the most significant predictors of risk.
 
-![Feature Importance](assets/confusion_matrix_v.5.0.jpg)
+![Feature Importance](assets/logistic_regression_feature_importance.png)
 
 
 ### Performance Metrics 
