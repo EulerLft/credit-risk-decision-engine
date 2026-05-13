@@ -13,7 +13,7 @@ The project is designed as a modular pipeline to ensure reproducibility and scal
 
 ## 📊 Business Intelligence (Tableau)
 To provide stakeholders with a high-level view of the loan portfolio, I developed an interactive Tableau dashboard. This tool allows for the exploration of risk factors across different demographic and financial segments. \
-**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/sal.fernandez/viz/CreditRiskAnalysis_17785991409790/CreditRiskAnalysis#1)** \
+**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/sal.fernandez/viz/CreditRiskAnalysis_17785991409790/CreditRiskAnalysis#1)** 
 
 ![Tableau Dashboard](assets/dashboard_screenshot.JPG)
 
@@ -28,7 +28,7 @@ credit-risk-decision-engine/
 ├── assets/         # Performance screenshots and visualizations
 ├── data/           # Raw and cleaned datasets
 ├── scripts/        # Python modeling pipelines
-├── scripts/        # SQL transformations
+├── sql/            # SQL transformations
 ├── models/         # machine-learning models 
 ├── README.md
 └── requirements.txt
@@ -38,6 +38,8 @@ credit-risk-decision-engine/
 ## 📊 Model Evolution & Performance
 The final model (v5.0) was tuned to prioritize Recall, ensuring the bank captures the maximum number of true defaults.
 The model successfully identifies 82% of all actual "High Risk" cases, providing a significant safety net against credit loss.
+
+![Confusion Matrix](assets/confusion_matrix_v.5.0.jpg)
 
 ### Feature Importance
 The analysis reveals that Checking Account Status and Credit Duration are the most significant predictors of risk.
@@ -51,15 +53,13 @@ The analysis reveals that Checking Account Status and Credit Duration are the mo
 | v4.0 | Balanced Weights | 0.72 | 0.75 | 0.62 |
 | **v5.0** | **Grid Search Optimized** | **0.80** | **0.82** | **0.71** |
 
-![Confusion Matrix](assets/confusion_matrix_v.5.0.jpg)
-
 ### Phase 1: Baseline Tuning (v1.0 - v3.0)
 The first three versions focused on finding the right level of regularization. While v3.0 achieved the highest overall accuracy, the recall score was only 0.54, meaning the model was still missing nearly half of the high-risk applicants.
 <details>
 <summary>Click to view early iteration proofs</summary>
 
-Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults.
-![v1.0](assets/v1.0_manual_baseline.jpg)
+Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults. \
+![v1.0](assets/v1.0_manual_baseline.jpg) \
 ![v3.0](assets/v3.0_manual_baseline.jpg)
 </details>
 
