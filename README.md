@@ -39,7 +39,9 @@ credit-risk-decision-engine/
 The final model (v5.0) was tuned to prioritize Recall, ensuring the bank captures the maximum number of true defaults.
 The model successfully identifies 82% of all actual "High Risk" cases, providing a significant safety net against credit loss.
 
-<img src='assets/confusion_matrix_v.5.0.jpg' alt='Confusion Matrix', width="500">
+<p align="center">
+  <img src="assets/confusion_matrix_v.5.0.jpg" alt="Confusion Matrix" width="500">
+</p>
 
 ### Feature Importance
 The analysis reveals that Checking Account Status and Credit Duration are the most significant predictors of risk.
