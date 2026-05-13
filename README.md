@@ -47,7 +47,7 @@ The model successfully identifies 82% of all actual "High Risk" cases, providing
 The analysis reveals that Checking Account Status and Credit Duration are the most significant predictors of risk.
 
 <p align="center">
-  <img src="assets/logistic_regression_feature_importance.png" alt="Feature Importance" width="500">
+  <img src="assets/logistic_regression_feature_importance.png" alt="Feature Importance" width="800">
 </p>
 
 ### Performance Metrics 
@@ -88,7 +88,6 @@ Using `GridSearchCV`, we mathematically identified the optimal C-value (0.1) and
 <p align="center">
   <img src="assets/v5.0_grid_search_optimized.JPG" alt="v5.0 Grid Search" width="500">
 </p>
-
 
 <p align="center">
   <img src="assets/v5.0_manual_result.JPG" alt="v5.0 Final Validation" width="500">
