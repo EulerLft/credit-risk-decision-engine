@@ -2,7 +2,7 @@
 
 This project implements a full-stack machine learning pipeline to predict credit default risk using the German Credit Dataset. The engine is optimized to prioritize the identification of high-risk applicants, minimizing potential financial loss through rigorous hyperparameter tuning and a custom SQL-driven data pipeline.
 
-**[Live Interactive App: [Insert Your Streamlit Cloud Link Here]]**
+**[🚀 Live Interactive App: https://credit-risk-engine-eulerlft.streamlit.app/](https://credit-risk-engine-eulerlft.streamlit.app/)**
 
 ## 🏗 Project Architecture & Workflow
 The project is designed as a modular pipeline to ensure reproducibility and scalability:
@@ -15,7 +15,7 @@ The project is designed as a modular pipeline to ensure reproducibility and scal
 To provide stakeholders with a high-level view of the loan portfolio, I developed an interactive Tableau dashboard. This tool allows for the exploration of risk factors across different demographic and financial segments. \
 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/sal.fernandez/viz/CreditRiskAnalysis_17785991409790/CreditRiskAnalysis#1)** \
 
-![Tableau Dashboard](assets/dashboard_screenshot.jpg)
+![Tableau Dashboard](assets/dashboard_screenshot.JPG)
 
 ### Key Insights from the Analysis:
 * **Risk Density:** Applicants with "no checking" accounts show a significantly higher density of high-risk labels compared to those with established credit.
