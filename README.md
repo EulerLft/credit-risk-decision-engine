@@ -46,9 +46,8 @@ The model successfully identifies 82% of all actual "High Risk" cases, providing
 ### Feature Importance
 The analysis reveals that Checking Account Status and Credit Duration are the most significant predictors of risk.
 
-<p align="center">
-  <img src="assets/logistic_regression_feature_importance.png" alt="Feature Importance" width="800">
-</p>
+![Feature Importance](assets/confusion_matrix_v.5.0.jpg)
+
 
 ### Performance Metrics 
 | Model Version  | Strategy/Change | Accuracy | Recall | F1 | 
@@ -62,7 +61,8 @@ The first three versions focused on finding the right level of regularization. W
 <details>
 <summary>Click to view early iteration proofs</summary>
 
-Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults. \
+Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults. 
+    
 <p align="center">
   <img src="assets/v1.0_manual_baseline.jpg" alt="v1.0" width="500">
 </p>
@@ -72,10 +72,11 @@ Versions 1.0 through 3.0 focused on finding regularization stability. While accu
 </details>
 
 ### Phase 2: Prioritizing Risk Detection (v4.0)
-By implementing `class_weight='balanced'`, we successfully shifted the model's focus to catching defaults, raising recall to 0.75. \
+By implementing `class_weight='balanced'`, we successfully shifted the model's focus to catching defaults, raising recall to 0.75. 
 <details>
 <summary>Click to view v4.0 iteration proofs</summary>
-Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults. \
+Versions 1.0 through 3.0 focused on finding regularization stability. While accuracy was high (~80%), the model missed too many defaults. 
+    
 <p align="center">
   <img src="assets/v4.0_manual_baseline.jpg" alt="v4.0" width="500">
 </p>
@@ -83,7 +84,7 @@ Versions 1.0 through 3.0 focused on finding regularization stability. While accu
 
 
 ### Phase 3: Final Optimization (v5.0)
-Using `GridSearchCV`, we mathematically identified the optimal C-value (0.1) and L1 penalty. This is our production engine. \
+Using `GridSearchCV`, we mathematically identified the optimal C-value (0.1) and L1 penalty. This is our production engine. 
 
 <p align="center">
   <img src="assets/v5.0_grid_search_optimized.JPG" alt="v5.0 Grid Search" width="500">
